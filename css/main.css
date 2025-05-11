@@ -10,8 +10,8 @@
     
 }
 .book-button{
-    background-color:#1d4d44ad;
-
+    background-color:#1d4d44cb;
+    font-weight: bold;
     color:white;
     border-width: 2px;
     height: 70px;
@@ -87,7 +87,7 @@
     gap:30px;   
      justify-content: center;
     position: relative;
-    background-color: #dbc9b6;
+    background-color:  #F9F1E5;
 }
 .home-page-img2{
     object-fit: cover;
