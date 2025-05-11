@@ -37,6 +37,7 @@
     height: 1000px;
     width: 100%;
 }
+
 .home-page-img{
     width: 100%;
     object-fit: cover;
@@ -55,8 +56,9 @@
       top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); 
-    background-color: rgba(0,0,0,0.5);
+  
 }
+
 .title-text{
     font-weight: bolder;
     font-size: 50px;
@@ -64,8 +66,8 @@
 
 
 .schedule-service-container{
-    background-color: #42635d;
-    height: 150px;
+    background-color: #1D4D44;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,20 +84,15 @@
     display: grid;
       grid-template-columns:1fr 1fr;
     width: 100%;
-    gap:20px;   
+    gap:30px;   
      justify-content: center;
     position: relative;
     background-color: #dbc9b6;
-    
-
 }
 .home-page-img2{
     object-fit: cover;
     width: 100%;
     height: 100%;
-  
-
-
 }
 .title-introduction{
     padding-top: 50px;
@@ -104,25 +101,33 @@
 }
 .paragraph-introduction{
     display: flex;  
-    font-size:20px;
+    font-size:24px;
+    margin-bottom: 50px;
 }
 .introduction-button-container{
     border-style: none;
-    border-radius: 5px;
-    height: 70px;
-    width: 250px;
-    
+    border-radius: 7px;
+
+    padding: 20px 25px 20px 25px;
+    font-weight: 500;
     font-size: 20px;
     font-family: Oswald, Arial;
-    background-color: #42635d;
+    background-color: #1D4D44;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+.introduction-button-container:hover{
+    scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
 .prices-line-contaier{
-    background-color: #3d3335;
+    background-color:#1D4D44;
     height: 120px;
         display: flex;
     align-items: center;
@@ -146,7 +151,7 @@
   display: flex;
   font-weight: 700;
   align-items: center;
-  background-color:  #dbc9b6;
+  background-color: #F9F1E5;
     padding-left: 50px;
   height: 130px;
 }
@@ -163,13 +168,15 @@
 .gallery-text-container{
     font-family: Osward;
     display: flex;
+    gap:20px;
     font-size:40px;
-    background-color: #42635d;
+    background-color: #1D4D44;
     height: 100px;
     align-items: center;
     justify-content: center;
     color: white;
     text-align: center;
+    
    
 }
 .gallery-text-container p{
@@ -179,11 +186,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-family: Osward;
+    gap:50px;
     font-size: 24px;
+    padding-top: 50px;
+    background-color: #F9F1E5;
 }
 .gallery-container img {
     width: 100%;
-    height: auto;
+    height: 80%;
     object-fit: cover;
     display: block;
 }
