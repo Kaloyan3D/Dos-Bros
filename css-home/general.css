@@ -2,6 +2,7 @@ body{
 
     overflow-x:hidden;
        margin:0;
+       background-color: #FAFAFA;
 }
 p{
     font-family:Oswald, Arial;
