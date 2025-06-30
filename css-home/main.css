@@ -48,6 +48,7 @@
     object-fit: cover;
   object-position: center 30%;  
 
+
 }
 .title-text-container{
 
@@ -84,6 +85,7 @@
 .schedule-service-text:hover{
     cursor: pointer;
     text-decoration: underline;
+     transform: scale(1.03);
 }
 .introduction-container{
     display: grid;

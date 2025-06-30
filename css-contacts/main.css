@@ -74,7 +74,7 @@
     .barber-infos{
     grid-template-columns: 1fr ;
     }
-    margin: 0;
+   
   }  
 
 
@@ -109,7 +109,7 @@
 }
 
 .barber-card p{
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 500;
   
    
@@ -134,4 +134,5 @@ iframe:hover{
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 700px;
 }

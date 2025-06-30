@@ -37,7 +37,10 @@ header a{
 .logo-img {
   height: 100px;
 }
-
+.logo-img:hover {
+   transform: scale(1.03);
+   cursor: pointer;
+}
 .social-medias {
   display: flex;
   gap: 25px;
