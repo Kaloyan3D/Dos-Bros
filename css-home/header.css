@@ -60,3 +60,46 @@ svg:hover{
   fill:#D22B2B;
   transition: fill 0.15s;
 }
+.left-section ul,
+.social-medias ul {
+  display: flex;
+  gap: 20px; /* space between nav items */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.left-section li,
+.social-medias li {
+
+  align-items: center;
+}
+.left-section .sidebar {
+  display: none;
+}
+.sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: #001f3f93;
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: black;
+ 
+}
+
+@media(max-width:800px)
+{
+   .hideOnMobile{
+    display: none;
+  }
+  
+}
