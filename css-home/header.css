@@ -63,7 +63,7 @@ svg:hover{
 .left-section ul,
 .social-medias ul {
   display: flex;
-  gap: 20px; /* space between nav items */
+  gap: 20px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -75,10 +75,8 @@ svg:hover{
 
   align-items: center;
 }
-.left-section .sidebar {
-  display: none;
-}
-.sidebar{
+
+.sidebar {
   position: fixed;
   top: 0;
   right: 0;
@@ -87,13 +85,22 @@ svg:hover{
   z-index: 999;
   background-color: #001f3f93;
   backdrop-filter: blur(10px);
-  box-shadow: -10px 0 10px rgba(0,0,0,0.1);
-  display: none;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   flex-direction: column;
   align-items: flex-start;
+
   justify-content: flex-start;
   color: black;
- 
+  transform: translateX(100%);
+  opacity: 0;
+  pointer-events: none;
+
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.sidebar.active {
+  transform: translateX(0%);
+  opacity: 1;
+  pointer-events: auto;
 }
 svg{
   fill: white;
@@ -106,7 +113,7 @@ svg{
     display: none;
 
   }
-  
+
 
 
   
