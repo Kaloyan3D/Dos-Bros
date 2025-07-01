@@ -1,8 +1,9 @@
-body{
+html, body{
 
     overflow-x:hidden;
        margin:0;
        background-color: #FAFAFA;
+         max-width: 100%;
 }
 p{
     font-family:Oswald, Arial;
@@ -10,3 +11,7 @@ p{
 div{
     font-family:Oswald, Arial;
 }
+* {
+  box-sizing: border-box;
+}
+
