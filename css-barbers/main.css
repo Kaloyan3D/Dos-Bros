@@ -176,3 +176,191 @@
     text-align: center;
     font-size: 200px;
 }
+
+
+
+
+@media(max-width:800px)
+{
+    .main{
+    margin-top: 200px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 70px;
+    height: 5px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+.reviews-text{
+      justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700px;
+    margin: 0;
+    padding: 20px;
+}
+.whole-info{
+    display: flex;
+    flex-direction: column;
+}
+.barber-infos{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    justify-content: center;
+}
+.barber-infos img{
+    height: 80%;
+    width: 70%;
+    object-fit: cover;
+    
+}
+.iliaz-info{
+
+    text-align: center;
+
+}
+.ahmed-info{
+
+     text-align: center;
+}
+.iliaz-info, .ahmed-info p{
+    font-size: 30px;
+    font-weight: 700;
+  
+}
+
+.iliaz-img, .ahmed-img{
+    border-radius: 30px;
+}
+
+.certificates{
+     display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+}
+
+.ahmed-certificates img, .iliaz-certificates img{
+        height: 300px;
+
+}
+.ahmed-certificates p, .iliaz-certificates p{
+    font-size: 24px;
+    font-weight: 700;
+}
+.all-reviwes-container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    justify-content: center;
+}
+.review-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    padding-left: 10px;
+
+
+}
+
+.review-img-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   
+}
+.review-img{
+    padding-top: 15px;
+    height: 50px;
+
+    
+    
+  
+}
+.review-img img{
+    height: 50px;
+    width: 50px;
+    border-radius: 35px;
+    
+}
+.review-img-container p{
+    font-size: 24px;
+    padding-left: 10px;
+}
+.review-info-container{
+
+    height: 100%;
+}
+.review-info-container p{
+
+    margin: 0;
+ font-size: 24px;
+}
+.checked {
+  color: orange;
+}
+.arrows{
+    text-align: center;
+    font-size: 200px;
+}
+
+}

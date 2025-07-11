@@ -88,14 +88,40 @@ svg:hover{
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   flex-direction: column;
   align-items: flex-start;
-
-  justify-content: flex-start;
+  justify-content: start;
   color: black;
   transform: translateX(100%);
   opacity: 0;
   pointer-events: none;
-
+ display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Push content to top and bottom */
+  padding: 20px;
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Push content to top and bottom */
+  padding: 20px;
+}
+
+.sidebar-socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 20px;
+  margin-top: auto; /* Push to bottom */
+}
+
+.sidebar-socials a svg {
+  height: 28px;
+  fill: white;
+  transition: fill 0.2s ease;
+}
+
+.sidebar-socials a svg:hover {
+  fill: #D22B2B;
 }
 .sidebar.active {
   transform: translateX(0%);
@@ -126,4 +152,7 @@ svg{
   
   }
    
+}
+.removeSidebar {
+  margin-top: 40px; /* Adjust this value to your liking */
 }
