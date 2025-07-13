@@ -81,7 +81,7 @@ svg:hover{
   top: 0;
   right: 0;
   height: 100vh;
-  width: 70%;
+  width: 79%;
   z-index: 999;
   background-color: #001f3f93;
   backdrop-filter: blur(10px);
@@ -137,8 +137,14 @@ svg{
 {
    .hideOnMobile{
     display: none;
-
+    
   }
+  header{
+    height:70px;
+  }
+   .logo-img{
+    height: 70px;
+   }
 
 
 
@@ -151,6 +157,7 @@ svg{
     left: 0;
   
   }
+
    
 }
 .removeSidebar {

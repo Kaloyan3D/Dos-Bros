@@ -55,15 +55,43 @@
     padding-bottom: 50px;
 }
 
+
 .whole-info{
     display: flex;
     flex-direction: column;
 }
-.barber-infos{
+.barber-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
+    gap: 30px;
+    padding: 20px;
 }
+.barber-column {
+    text-align: center;
+    
+}
+
+.barber-column img {
+    height: 80%;
+    width: 70%;
+    object-fit: cover;
+    height: 700px;
+    
+}
+
+.barber-column p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ahmed-certificates img,
+.iliaz-certificates img {
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+
+
 .barber-infos img{
     height: 80%;
     width: 70%;
@@ -172,52 +200,34 @@
     display: flex;
     flex-direction: column;
 }
-.barber-infos{
+.barber-columns {
     display: grid;
     grid-template-columns: 1fr;
     gap: 30px;
-    justify-content: center;
+    padding: 0px;
 }
-.barber-infos img{
-    height: 80%;
-    width: 70%;
-    object-fit: cover;
+.barber-column {
+    text-align: center;
     
 }
-.iliaz-info{
 
-    text-align: center;
+.barber-column img {
 
-}
-.ahmed-info{
-
-     text-align: center;
-}
-.iliaz-info, .ahmed-info p{
-    font-size: 30px;
-    font-weight: 700;
-  
+    width: 350px;
+    object-fit: cover;
+    height: 300px;
+    
 }
 
-.iliaz-img, .ahmed-img{
-    border-radius: 30px;
-}
-
-.certificates{
-     display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    margin: 20px;
-    text-align: center;
-}
-
-.ahmed-certificates img, .iliaz-certificates img{
-        height: 300px;
-
-}
-.ahmed-certificates p, .iliaz-certificates p{
+.barber-column p {
     font-size: 24px;
     font-weight: 700;
+}
+
+.ahmed-certificates img,
+.iliaz-certificates img {
+    height: 300px;
+    margin-bottom: 10px;
 }
 
 
@@ -237,12 +247,24 @@
   gap: 10px;
   font-size: 20px;
 }
-
+.carousel-wrapper img{
+    height: 70px;
+    width: 70px;
+}
 .all-reviews-carousel {
   overflow: hidden;
   flex: 1;
   /* Add padding to prevent content from touching edges */
   padding: 0 5px;
+}
+.review-img-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between image and name */
+   width: 50px; /* adjust as needed */
+  height: 50px;
+  border-radius: 50%; /* for circular profile picture */
+  object-fit: cover;
 }
 
 .reviews-track {
@@ -294,11 +316,22 @@
     width: calc(33.333% - 20px); /* 3 reviews per row with margins */
    
   }
+
 }
 
 @media (max-width: 767px) {
   .review-container {
     width: calc(100% - 20px); /* 1 review per row with margins */
+    font-size: 15px;
     
   }
+    .carousel-wrapper img{
+        height: 50px;
+        width: 50px;
 }
+.book-button-container{
+    display: none;
+}
+}
+
+
