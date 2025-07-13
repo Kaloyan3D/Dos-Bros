@@ -282,9 +282,12 @@
   
 }
 
+
 .title-text{
     font-weight: bolder;
     font-size: 40px;
+    margin-top: 0;
+    
 }
 
 
@@ -441,7 +444,7 @@
 }
 
   .main{
-    margin-top: 70px;
+    margin-top: 80px;
 
 }
 }
