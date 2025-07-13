@@ -1,0 +1,133 @@
+<div class="carousel-wrapper">
+  <button class="arrow left">&#8249;</button>
+
+  <div class="all-reviews-carousel">
+    <div class="reviews-track">
+      <!-- 🔁 Add more reviews as needed -->
+      <div class="review-container">
+        <div class="review-img-container">
+          <div class="review-img"><img src="Review Profile Pics/profile-pic1.png" alt="Ivan"></div>
+          <div class="review-username"><p>Ivan Boyanov</p></div>
+        </div>
+        <div class="review-info-container">
+          <div class="review-stars">
+            <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+          </div>
+          <div class="review-text-container">
+            <p>Страхотни професионалисти и уникални хора! Вече само при тях отивам за брада и коса :)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-container"> <!-- review 2 --> ... </div>
+      <div class="review-container"> <!-- review 3 --> ... </div>
+      <div class="review-container"> <!-- review 4 --> ... </div>
+      <div class="review-container"> <!-- review 5 --> ... </div>
+    </div>
+  </div>
+  <button class="arrow right">&#8250;</button>
+</div>
+<style>
+  .carousel-wrapper {
+  position: relative;
+  max-width: 1000px;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.all-reviews-carousel {
+  overflow: hidden;
+  flex: 1;
+}
+
+.reviews-track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.review-container {
+  flex-shrink: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+/* Arrows outside the box */
+.arrow {
+  background: #0008;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Stars */
+.checked {
+  color: gold;
+}
+
+/* 📱 Responsive settings */
+@media (min-width: 768px) {
+  .review-container {
+    width: calc(100% / 3); /* 3 reviews per row */
+  }
+}
+
+@media (max-width: 767px) {
+  .review-container {
+    width: 100%; /* 1 review per row */
+  }
+}
+</style>
+<script>
+  const track = document.querySelector('.reviews-track');
+  const reviews = document.querySelectorAll('.review-container');
+  const leftBtn = document.querySelector('.arrow.left');
+  const rightBtn = document.querySelector('.arrow.right');
+
+  let currentIndex = 0;
+
+  function getVisibleCount() {
+    // 3 on desktop, 1 on mobile
+    return window.innerWidth >= 768 ? 3 : 1;
+  }
+
+  function updateReview() {
+    const reviewWidth = reviews[0].offsetWidth + 20; // includes margin
+    const visibleCount = getVisibleCount();
+    const totalSlides = Math.ceil(reviews.length / visibleCount);
+    const maxIndex = totalSlides - 1;
+
+    // Loop the index
+    if (currentIndex < 0) currentIndex = maxIndex;
+    if (currentIndex > maxIndex) currentIndex = 0;
+
+    const offset = currentIndex * visibleCount * reviewWidth;
+    track.style.transform = `translateX(-${offset}px)`;
+  }
+
+  rightBtn.addEventListener('click', () => {
+    currentIndex++;
+    updateReview();
+  });
+
+  leftBtn.addEventListener('click', () => {
+    currentIndex--;
+    updateReview();
+  });
+
+  window.addEventListener('resize', () => {
+    updateReview();
+  });
+
+  // Initial position
+  updateReview();
+</script>
