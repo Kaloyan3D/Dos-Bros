@@ -29,7 +29,28 @@
     transition: background-color 0.3s;
 }
 
+.title-button{
+     border-style: none;
+    border-radius: 7px;
 
+    padding: 20px 50px 20px 50px;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: Oswald, Arial;
+   background-color: #D22B2B;
+  backdrop-filter: blur(5px);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-button:hover{
+    scale:1.05;
+   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
 .home-page-img-container{
     
     display: flex;
@@ -65,8 +86,11 @@
 .title-text{
     font-weight: bolder;
     font-size: 50px;
+  
 }
-
+.title-small-text{
+    font-size: 30px;
+}
 
 .schedule-service-container{
     background-color: #D22B2B;
@@ -100,15 +124,19 @@
 }
 .title-introduction{
     font-size: 50px;
+    margin: 0;
     font-weight: 700;
 }
 .paragraph-introduction{
     display: flex;  
     font-size:24px;
+    margin: 10px 0 10px 0;
 }
 .introduction-text-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-right: 400px;
     
 }
 .introduction-button-container{
@@ -275,7 +303,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 80%;
       top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); 
@@ -286,10 +314,36 @@
 .title-text{
     font-weight: bolder;
     font-size: 40px;
+
     margin-top: 0;
     
 }
 
+.line-toggle {
+  display: block; /* Forces content onto a new line */
+}
+.title-button{
+     border-style: none;
+    border-radius: 7px;
+
+    padding: 20px 50px 20px 50px;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Oswald, Arial;
+   background-color: #D22B2B;
+  backdrop-filter: blur(5px);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-button:hover{
+    scale:1.05;
+   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
 
 
 .schedule-service-container{
@@ -315,6 +369,7 @@
     gap:30px;   
      justify-content: center;
     position: relative;
+    
     background-color:  #FAFAFA;
 }
 .home-page-img2{
@@ -323,19 +378,25 @@
     height: 500px;
 }
 .title-introduction{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     text-align: center;
+   margin: 0;
+    
 }
 .paragraph-introduction{
     display: flex;  
     font-size:20px;
      text-align: center;
+     padding: 0 20px 0 20px;
+      margin: 15px 0 15px 0;
+     
 }
 .introduction-text-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
 }
 .introduction-button-container{
     border-style: none;
@@ -351,7 +412,7 @@
     align-items: center;
     text-align: center;
     margin-bottom: 35px;
-    margin-top: 35px;
+    margin-top: 10px;
     
 }
 .introduction-button-container:hover{

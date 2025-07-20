@@ -10,3 +10,17 @@ footer{
     font-family: Oswald, Arial;
     bottom: 0;
 }
+@media(max-width:800px){
+    footer{
+   background-color: #001f3f;
+    height: 80px;
+    color: white;
+    font-size:20px;
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+    width: 100%;
+    font-family: Oswald, Arial;
+    bottom: 0;
+}
+}
