@@ -1,3 +1,2048 @@
+
+/* 1) Extra‑Small Phones (≤ iPhone SE2) */
+@media (min-width:   0px) and (max-width:  376px) {
+  .button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 998;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+
+.home-page-img-container{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+.home-page-img{
+    width: 100%;
+    object-fit: cover;
+  object-position: center 30%;  
+
+
+}
+.title-text-container{
+
+    position: absolute;
+    color: #FAFAFA;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+      top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  
+}
+
+
+.title-text{
+    font-weight: bolder;
+    font-size: 35px;
+
+    margin-top: 0;
+    
+}
+
+.line-toggle {
+  display: block;
+}
+.title-button{
+     border-style: none;
+    border-radius: 7px;
+
+    padding: 15px 45px 15px 45px;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Oswald, Arial;
+   background-color: #D22B2B;
+  backdrop-filter: blur(5px);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-button:hover{
+    scale:1.05;
+   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
+
+
+.schedule-service-container{
+    background-color: #D22B2B;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 25px;
+    color: #FAFAFA;
+}
+
+.introduction-container{
+    display: grid;
+      grid-template-columns:1fr;
+    width: 100%;
+    gap:30px;   
+     justify-content: center;
+    position: relative;
+    
+    background-color:  #FAFAFA;
+}
+.home-page-img2{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+.title-introduction{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+   margin: 0;
+    
+}
+.paragraph-introduction{
+    display: flex;  
+    font-size:20px;
+     text-align: center;
+     padding: 0 20px 0 20px;
+      margin: 15px 0 15px 0;
+     
+}
+.introduction-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.introduction-button-container{
+    border-style: none;
+    border-radius: 7px;
+    padding: 20px 25px 20px 25px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Oswald, Arial;
+    background-color: #D22B2B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    
+}
+.introduction-button-container:hover{
+    scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
+.prices-line-contaier{
+    background-color:#D22B2B;
+    height: 70px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 25px;
+    color: #FAFAFA;
+}
+.prices-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+ 
+    
+}
+.prices-container p {
+  margin: 0;
+  font-size: 30px;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  background-color: #FAFAFA;
+    padding-left: 50px;
+  height: 100px;
+}
+
+.cut{
+    border-bottom-style: solid;
+}
+.beard{
+    border-bottom-style: solid;
+}
+
+.gallery-text-container{
+    font-family: Osward;
+    display: flex;
+    gap:20px;
+    font-size:25px;
+    background-color: #D22B2B;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+   
+}
+.gallery-text-container p{
+     margin:0px;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: Osward;
+    gap:0px;
+    font-size: 24px;
+    padding-top: 50px;
+    background-color: #FAFAFA;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.gallery-container img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+.gallery-container p{
+    text-align: center;
+    font-size: 24px;
+}
+.book-button-container{
+    display: none;
+}
+
+  .main{
+    margin-top: 80px;
+
+
+}
+}
+
+/* 2) Average Phones (Pixel 7) */
+@media (min-width: 376px) and (max-width:  411px) {
+ .button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 998;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+
+.home-page-img-container{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    height: 780px;
+    width: 100%;
+}
+
+.home-page-img{
+    width: 100%;
+    object-fit: cover;
+  object-position: center 30%;  
+
+
+}
+.title-text-container{
+
+    position: absolute;
+    color: #FAFAFA;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+      top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  
+}
+
+
+.title-text{
+    font-weight: bolder;
+    font-size: 38px;
+
+    margin-top: 0;
+    
+}
+
+.line-toggle {
+  display: block; /* Forces content onto a new line */
+}
+.title-button{
+     border-style: none;
+    border-radius: 7px;
+
+    padding: 20px 50px 20px 50px;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Oswald, Arial;
+   background-color: #D22B2B;
+  backdrop-filter: blur(5px);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-button:hover{
+    scale:1.05;
+   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
+
+
+.schedule-service-container{
+    background-color: #D22B2B;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 30px;
+    color: #FAFAFA;
+}
+
+.introduction-container{
+    display: grid;
+      grid-template-columns:1fr;
+    width: 100%;
+    gap:30px;   
+     justify-content: center;
+    position: relative;
+    
+    background-color:  #FAFAFA;
+}
+.home-page-img2{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+.title-introduction{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+   margin: 0;
+    
+}
+.paragraph-introduction{
+    display: flex;  
+    font-size:20px;
+     text-align: center;
+     padding: 0 20px 0 20px;
+      margin: 15px 0 15px 0;
+     
+}
+.introduction-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.introduction-button-container{
+    border-style: none;
+    border-radius: 7px;
+    padding: 20px 25px 20px 25px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Oswald, Arial;
+    background-color: #D22B2B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    
+}
+.introduction-button-container:hover{
+    scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
+.prices-line-contaier{
+    background-color:#D22B2B;
+ height: 90px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FAFAFA;
+}
+.prices-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+ 
+    
+}
+.prices-container p {
+  margin: 0;
+  font-size: 35px;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  background-color: #FAFAFA;
+    padding-left: 50px;
+  height: 130px;
+}
+
+.cut{
+    border-bottom-style: solid;
+}
+.beard{
+    border-bottom-style: solid;
+}
+
+.gallery-text-container{
+    font-family: Osward;
+    display: flex;
+    gap:20px;
+    font-size:40px;
+    background-color: #D22B2B;
+     height: 90px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+   
+}
+.gallery-text-container p{
+     margin:0px;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: Osward;
+    gap:0px;
+    font-size: 24px;
+    padding-top: 50px;
+    background-color: #FAFAFA;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.gallery-container img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+.gallery-container p{
+    text-align: center;
+    font-size: 24px;
+}
+.book-button-container{
+    display: none;
+}
+
+  .main{
+    margin-top: 80px;
+
+
+}
+}
+
+/* 3) Large Phones (iPhone 16 Pro Max) */
+@media (min-width: 411px) and (max-width:  440px) {
+  .button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 998;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+
+.home-page-img-container{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    height: 700px;
+    width: 100%;
+}
+
+.home-page-img{
+    width: 100%;
+    object-fit: cover;
+  object-position: center 30%;  
+
+
+}
+.title-text-container{
+
+    position: absolute;
+    color: #FAFAFA;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+      top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  
+}
+
+
+.title-text{
+    font-weight: bolder;
+    font-size: 40px;
+
+    margin-top: 0;
+    
+}
+
+.line-toggle {
+  display: block; /* Forces content onto a new line */
+}
+.title-button{
+     border-style: none;
+    border-radius: 7px;
+
+    padding: 20px 50px 20px 50px;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Oswald, Arial;
+   background-color: #D22B2B;
+  backdrop-filter: blur(5px);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-button:hover{
+    scale:1.05;
+   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
+
+
+.schedule-service-container{
+    background-color: #D22B2B;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 30px;
+    color: #FAFAFA;
+}
+
+.introduction-container{
+    display: grid;
+      grid-template-columns:1fr;
+    width: 100%;
+    gap:30px;   
+     justify-content: center;
+    position: relative;
+    
+    background-color:  #FAFAFA;
+}
+.home-page-img2{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+.title-introduction{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+   margin: 0;
+    
+}
+.paragraph-introduction{
+    display: flex;  
+    font-size:20px;
+     text-align: center;
+     padding: 0 20px 0 20px;
+      margin: 15px 0 15px 0;
+     
+}
+.introduction-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.introduction-button-container{
+    border-style: none;
+    border-radius: 7px;
+    padding: 20px 25px 20px 25px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Oswald, Arial;
+    background-color: #D22B2B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    
+}
+.introduction-button-container:hover{
+    scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
+.prices-line-contaier{
+    background-color:#D22B2B;
+    height: 120px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FAFAFA;
+}
+.prices-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+ 
+    
+}
+.prices-container p {
+  margin: 0;
+  font-size: 35px;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  background-color: #FAFAFA;
+    padding-left: 50px;
+  height: 130px;
+}
+
+.cut{
+    border-bottom-style: solid;
+}
+.beard{
+    border-bottom-style: solid;
+}
+
+.gallery-text-container{
+    font-family: Osward;
+    display: flex;
+    gap:20px;
+    font-size:40px;
+    background-color: #D22B2B;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+   
+}
+.gallery-text-container p{
+     margin:0px;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: Osward;
+    gap:0px;
+    font-size: 24px;
+    padding-top: 50px;
+    background-color: #FAFAFA;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.gallery-container img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+.gallery-container p{
+    text-align: center;
+    font-size: 24px;
+}
+.book-button-container{
+    display: none;
+}
+
+  .main{
+    margin-top: 80px;
+
+
+}
+}
+
+/* 4) 8″ Tablets (e.g. iPad Mini) */ 
+@media (min-width: 440px) and (max-width:  769px) {
+  .button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 998;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+
+.home-page-img-container{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    height: 700px;
+    width: 100%;
+}
+
+.home-page-img{
+    width: 100%;
+    object-fit: cover;
+  object-position: center 30%;  
+
+
+}
+.title-text-container{
+
+    position: absolute;
+    color: #FAFAFA;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+      top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  
+}
+
+
+.title-text{
+    font-weight: bolder;
+    font-size: 40px;
+
+    margin-top: 0;
+    
+}
+
+.line-toggle {
+  display: block; /* Forces content onto a new line */
+}
+.title-button{
+     border-style: none;
+    border-radius: 7px;
+
+    padding: 20px 50px 20px 50px;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Oswald, Arial;
+   background-color: #D22B2B;
+  backdrop-filter: blur(5px);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-button:hover{
+    scale:1.05;
+   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
+
+
+.schedule-service-container{
+    background-color: #D22B2B;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 30px;
+    color: #FAFAFA;
+}
+
+.introduction-container{
+    display: grid;
+      grid-template-columns:1fr;
+    width: 100%;
+    gap:30px;   
+     justify-content: center;
+    position: relative;
+    
+    background-color:  #FAFAFA;
+}
+.home-page-img2{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+.title-introduction{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+   margin: 0;
+    
+}
+.paragraph-introduction{
+    display: flex;  
+    font-size:20px;
+     text-align: center;
+     padding: 0 20px 0 20px;
+      margin: 15px 0 15px 0;
+     
+}
+.introduction-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.introduction-button-container{
+    border-style: none;
+    border-radius: 7px;
+    padding: 20px 25px 20px 25px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Oswald, Arial;
+    background-color: #D22B2B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    
+}
+.introduction-button-container:hover{
+    scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
+.prices-line-contaier{
+    background-color:#D22B2B;
+    height: 120px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FAFAFA;
+}
+.prices-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+ 
+    
+}
+.prices-container p {
+  margin: 0;
+  font-size: 35px;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  background-color: #FAFAFA;
+    padding-left: 50px;
+  height: 130px;
+}
+
+.cut{
+    border-bottom-style: solid;
+}
+.beard{
+    border-bottom-style: solid;
+}
+
+.gallery-text-container{
+    font-family: Osward;
+    display: flex;
+    gap:20px;
+    font-size:40px;
+    background-color: #D22B2B;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+   
+}
+.gallery-text-container p{
+     margin:0px;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: Osward;
+    gap:0px;
+    font-size: 24px;
+    padding-top: 50px;
+    background-color: #FAFAFA;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.gallery-container img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+.gallery-container p{
+    text-align: center;
+    font-size: 24px;
+}
+.book-button-container{
+    display: none;
+}
+
+  .main{
+    margin-top: 80px;
+
+
+}
+}
+
+/* 5) 10″ Tablets (e.g. iPad 10) */
+@media (min-width: 769px) and (max-width:  810px) {
+.button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 998;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+
+.home-page-img-container{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    height: 700px;
+    width: 100%;
+}
+
+.home-page-img{
+    width: 100%;
+    object-fit: cover;
+  object-position: center 30%;  
+
+
+}
+.title-text-container{
+
+    position: absolute;
+    color: #FAFAFA;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+      top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  
+}
+
+
+.title-text{
+    font-weight: bolder;
+    font-size: 40px;
+
+    margin-top: 0;
+    
+}
+
+.line-toggle {
+  display: block; /* Forces content onto a new line */
+}
+.title-button{
+     border-style: none;
+    border-radius: 7px;
+
+    padding: 20px 50px 20px 50px;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Oswald, Arial;
+   background-color: #D22B2B;
+  backdrop-filter: blur(5px);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-button:hover{
+    scale:1.05;
+   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
+
+
+.schedule-service-container{
+    background-color: #D22B2B;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 30px;
+    color: #FAFAFA;
+}
+
+.introduction-container{
+    display: grid;
+      grid-template-columns:1fr;
+    width: 100%;
+    gap:30px;   
+     justify-content: center;
+    position: relative;
+    
+    background-color:  #FAFAFA;
+}
+.home-page-img2{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+.title-introduction{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+   margin: 0;
+    
+}
+.paragraph-introduction{
+    display: flex;  
+    font-size:20px;
+     text-align: center;
+     padding: 0 20px 0 20px;
+      margin: 15px 0 15px 0;
+     
+}
+.introduction-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.introduction-button-container{
+    border-style: none;
+    border-radius: 7px;
+    padding: 20px 25px 20px 25px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Oswald, Arial;
+    background-color: #D22B2B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    
+}
+.introduction-button-container:hover{
+    scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
+.prices-line-contaier{
+    background-color:#D22B2B;
+    height: 120px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FAFAFA;
+}
+.prices-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+ 
+    
+}
+.prices-container p {
+  margin: 0;
+  font-size: 35px;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  background-color: #FAFAFA;
+    padding-left: 50px;
+  height: 130px;
+}
+
+.cut{
+    border-bottom-style: solid;
+}
+.beard{
+    border-bottom-style: solid;
+}
+
+.gallery-text-container{
+    font-family: Osward;
+    display: flex;
+    gap:20px;
+    font-size:40px;
+    background-color: #D22B2B;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+   
+}
+.gallery-text-container p{
+     margin:0px;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: Osward;
+    gap:0px;
+    font-size: 24px;
+    padding-top: 50px;
+    background-color: #FAFAFA;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.gallery-container img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+.gallery-container p{
+    text-align: center;
+    font-size: 24px;
+}
+.book-button-container{
+    display: none;
+}
+
+  .main{
+    margin-top: 80px;
+
+
+}
+}
+
+/* 6) 11″ iPad Pro */
+@media (min-width: 811px) and (max-width:  835px) { 
+ .button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 998;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+
+.home-page-img-container{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    height: 1000px;
+    width: 100%;
+}
+
+.home-page-img{
+    width: 100%;
+    object-fit: cover;
+  object-position: center 30%;  
+
+
+}
+.title-text-container{
+
+    position: absolute;
+    color: #FAFAFA;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+      top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  
+}
+
+
+.title-text{
+    font-weight: bolder;
+    font-size: 40px;
+
+    margin-top: 0;
+    
+}
+
+.line-toggle {
+  display: block; /* Forces content onto a new line */
+}
+.title-button{
+     border-style: none;
+    border-radius: 7px;
+
+    padding: 20px 50px 20px 50px;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Oswald, Arial;
+   background-color: #D22B2B;
+  backdrop-filter: blur(5px);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-button:hover{
+    scale:1.05;
+   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
+
+
+.schedule-service-container{
+    background-color: #D22B2B;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 30px;
+    color: #FAFAFA;
+}
+
+.introduction-container{
+    display: grid;
+      grid-template-columns:1fr;
+    width: 100%;
+    gap:30px;   
+     justify-content: center;
+    position: relative;
+    
+    background-color:  #FAFAFA;
+}
+.home-page-img2{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+.title-introduction{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+   margin: 0;
+    
+}
+.paragraph-introduction{
+    display: flex;  
+    font-size:25px;
+     text-align: center;
+     padding: 0 20px 0 20px;
+      margin: 15px 0 15px 0;
+     
+}
+.introduction-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.introduction-button-container{
+    border-style: none;
+    border-radius: 7px;
+    padding: 25px 30px 25px 30px;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Oswald, Arial;
+    background-color: #D22B2B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    
+}
+.introduction-button-container:hover{
+    scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
+.prices-line-contaier{
+    background-color:#D22B2B;
+    height: 120px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FAFAFA;
+}
+.prices-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+ 
+    
+}
+.prices-container p {
+  margin: 0;
+  font-size: 35px;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  background-color: #FAFAFA;
+    padding-left: 50px;
+  height: 130px;
+}
+
+.cut{
+    border-bottom-style: solid;
+}
+.beard{
+    border-bottom-style: solid;
+}
+
+.gallery-text-container{
+    font-family: Osward;
+    display: flex;
+    gap:20px;
+    font-size:40px;
+    background-color: #D22B2B;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+   
+}
+.gallery-text-container p{
+     margin:0px;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: Osward;
+    gap:0px;
+    font-size: 24px;
+    padding-top: 50px;
+    background-color: #FAFAFA;
+    padding-left: 80px;
+    justify-content: center;
+    padding-right: 80px;
+}
+.gallery-container img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+.gallery-container p{
+    text-align: center;
+    font-size: 24px;
+}
+.book-button-container{
+    display: none;
+}
+
+  .main{
+    margin-top: 80px;
+
+
+}
+ }
+
+/* 7) 13″ iPad Pro */
+@media (min-width: 835px) and (max-width: 1032px) {
+  .button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 998;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+
+.home-page-img-container{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    height: 1000px;
+    width: 100%;
+}
+
+.home-page-img{
+    width: 100%;
+    object-fit: cover;
+  object-position: center 30%;  
+
+
+}
+.title-text-container{
+
+    position: absolute;
+    color: #FAFAFA;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+      top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  
+}
+
+
+.title-text{
+    font-weight: bolder;
+    font-size: 40px;
+
+    margin-top: 0;
+    
+}
+
+.line-toggle {
+  display: block; /* Forces content onto a new line */
+}
+.title-button{
+     border-style: none;
+    border-radius: 7px;
+
+    padding: 20px 50px 20px 50px;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Oswald, Arial;
+   background-color: #D22B2B;
+  backdrop-filter: blur(5px);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-button:hover{
+    scale:1.05;
+   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
+
+
+.schedule-service-container{
+    background-color: #D22B2B;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 30px;
+    color: #FAFAFA;
+}
+
+.introduction-container{
+    display: grid;
+      grid-template-columns:1fr;
+    width: 100%;
+    gap:30px;   
+     justify-content: center;
+    position: relative;
+    
+    background-color:  #FAFAFA;
+}
+.home-page-img2{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+.title-introduction{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+   margin: 0;
+    
+}
+.paragraph-introduction{
+    display: flex;  
+    font-size:25px;
+     text-align: center;
+     padding: 0 20px 0 20px;
+      margin: 15px 0 15px 0;
+     
+}
+.introduction-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.introduction-button-container{
+    border-style: none;
+    border-radius: 7px;
+    padding: 25px 30px 25px 30px;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Oswald, Arial;
+    background-color: #D22B2B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    
+}
+.introduction-button-container:hover{
+    scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
+.prices-line-contaier{
+    background-color:#D22B2B;
+    height: 120px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FAFAFA;
+}
+.prices-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+ 
+    
+}
+.prices-container p {
+  margin: 0;
+  font-size: 35px;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  background-color: #FAFAFA;
+    padding-left: 50px;
+  height: 130px;
+}
+
+.cut{
+    border-bottom-style: solid;
+}
+.beard{
+    border-bottom-style: solid;
+}
+
+.gallery-text-container{
+    font-family: Osward;
+    display: flex;
+    gap:20px;
+    font-size:40px;
+    background-color: #D22B2B;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+   
+}
+.gallery-text-container p{
+     margin:0px;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: Osward;
+    gap:0px;
+    font-size: 24px;
+    padding-top: 50px;
+    background-color: #FAFAFA;
+    padding-left: 80px;
+    justify-content: center;
+    padding-right: 80px;
+}
+.gallery-container img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+.gallery-container p{
+    text-align: center;
+    font-size: 24px;
+}
+.book-button-container{
+    display: none;
+}
+
+  .main{
+    margin-top: 80px;
+
+
+}
+}
+
+/* 8) Full‑HD PCs (1080p) */
+@media (min-width:1033px) and (max-width: 1921px) {
+.main{
+    margin-top: 100px;
+
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 998;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title-button{
+     border-style: none;
+    border-radius: 7px;
+
+    padding: 20px 50px 20px 50px;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: Oswald, Arial;
+   background-color: #D22B2B;
+  backdrop-filter: blur(5px);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-button:hover{
+    scale:1.05;
+   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
+.home-page-img-container{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    height: 900px;
+    width: 100%;
+}
+
+.home-page-img{
+    width: 100%;
+    object-fit: cover;
+  object-position: center 30%;  
+
+
+}
+.title-text-container{
+
+    position: absolute;
+    color: #FAFAFA;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+      top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  
+}
+
+.title-text{
+    font-weight: bolder;
+    font-size: 50px;
+  
+}
+.title-small-text{
+    font-size: 30px;
+}
+
+.schedule-service-container{
+    background-color: #D22B2B;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FAFAFA;
+}
+
+.introduction-container{
+    display: grid;
+      grid-template-columns:1fr 1fr;
+    width: 100%;
+    gap:30px;   
+     justify-content: center;
+    position: relative;
+    background-color:  #FAFAFA;
+}
+.home-page-img2{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.title-introduction{
+    font-size: 50px;
+    margin: 0;
+    font-weight: 700;
+}
+.paragraph-introduction{
+    display: flex;  
+    font-size:24px;
+    margin: 10px 0 10px 0;
+}
+.introduction-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 400px;
+    
+}
+.introduction-button-container{
+    border-style: none;
+    border-radius: 7px;
+    width: 300px;
+    padding: 20px 25px 20px 25px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Oswald, Arial;
+    background-color: #D22B2B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+.introduction-button-container:hover{
+    scale:1.05;
+   cursor: pointer;
+    transition: scale 0.15s;
+
+
+}
+.prices-line-contaier{
+    background-color:#D22B2B;
+    height: 120px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FAFAFA;
+}
+.prices-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+ 
+    
+}
+.prices-container p {
+  margin: 0;
+  font-size: 35px;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  background-color: #FAFAFA;
+    padding-left: 50px;
+  height: 130px;
+}
+
+.cut{
+    border-bottom-style: solid;
+}
+.beard{
+    border-bottom-style: solid;
+}
+
+.gallery-text-container{
+    font-family: Osward;
+    display: flex;
+    gap:20px;
+    font-size:40px;
+    background-color: #D22B2B;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+   
+}
+.gallery-text-container p{
+     margin:0px;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: Osward;
+    gap:50px;
+    font-size: 24px;
+    padding-top: 50px;
+    background-color: #FAFAFA;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.gallery-container img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+.gallery-container p{
+    text-align: center;
+    font-size: 24px;
+}
+ }
+
+/* 9) QHD PCs (1440p) */
+@media (min-width:1921px) and (max-width: 2561px) {
 .main{
     margin-top: 100px;
 
@@ -103,11 +2148,7 @@
     font-size: 35px;
     color: #FAFAFA;
 }
-.schedule-service-text:hover{
-    cursor: pointer;
-    text-decoration: underline;
-     transform: scale(1.03);
-}
+
 .introduction-container{
     display: grid;
       grid-template-columns:1fr 1fr;
@@ -199,9 +2240,7 @@
 .beard{
     border-bottom-style: solid;
 }
-.beard-cut{
-    border-bottom-style:solid;
-}
+
 .gallery-text-container{
     font-family: Osward;
     display: flex;
@@ -241,16 +2280,15 @@
     text-align: center;
     font-size: 24px;
 }
+}
 
+/* 10) UHD PCs (4K) */
+@media (min-width:2560px) and (max-width: 3840px) {
+  .main{
+    margin-top: 100px;
 
-
-
-
-
-@media(max-width:800px)
-{
-
-.button-container{
+}
+.book-button-container{
     position:fixed;
     bottom: 30px;
     right: 30px;
@@ -277,58 +2315,13 @@
     transition: background-color 0.3s;
 }
 
-
-.home-page-img-container{
-    
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    position: relative;
-    height: 800px;
-    width: 100%;
-}
-
-.home-page-img{
-    width: 100%;
-    object-fit: cover;
-  object-position: center 30%;  
-
-
-}
-.title-text-container{
-
-    position: absolute;
-    color: #FAFAFA;
-    font-size: 20px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-      top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
-  
-}
-
-
-.title-text{
-    font-weight: bolder;
-    font-size: 40px;
-
-    margin-top: 0;
-    
-}
-
-.line-toggle {
-  display: block; /* Forces content onto a new line */
-}
 .title-button{
      border-style: none;
     border-radius: 7px;
 
     padding: 20px 50px 20px 50px;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 30px;
     font-family: Oswald, Arial;
    background-color: #D22B2B;
   backdrop-filter: blur(5px);
@@ -344,7 +2337,46 @@
 
 
 }
+.home-page-img-container{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    height: 1250px;
+    width: 100%;
+}
 
+.home-page-img{
+    width: 100%;
+    object-fit: cover;
+  object-position: center 30%;  
+
+
+}
+.title-text-container{
+
+    position: absolute;
+    color: #FAFAFA;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+      top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  
+}
+
+.title-text{
+    font-weight: bolder;
+    font-size: 50px;
+  
+}
+.title-small-text{
+    font-size: 30px;
+}
 
 .schedule-service-container{
     background-color: #D22B2B;
@@ -354,53 +2386,45 @@
     justify-content: center;
     font-family: Roboto,Arial;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 35px;
     color: #FAFAFA;
 }
-.schedule-service-text:hover{
-    cursor: pointer;
-    text-decoration: underline;
-     transform: scale(1.03);
-}
+
 .introduction-container{
     display: grid;
-      grid-template-columns:1fr;
+      grid-template-columns:1fr 1fr;
     width: 100%;
     gap:30px;   
      justify-content: center;
     position: relative;
-    
     background-color:  #FAFAFA;
 }
 .home-page-img2{
     object-fit: cover;
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
 .title-introduction{
-    font-size: 40px;
+    font-size: 50px;
+    margin: 0;
     font-weight: 700;
-    text-align: center;
-   margin: 0;
-    
 }
 .paragraph-introduction{
     display: flex;  
-    font-size:20px;
-     text-align: center;
-     padding: 0 20px 0 20px;
-      margin: 15px 0 15px 0;
-     
+    font-size:24px;
+    margin: 10px 0 10px 0;
 }
 .introduction-text-container{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0;
+    justify-content: center;
+    padding-right: 400px;
+    
 }
 .introduction-button-container{
     border-style: none;
     border-radius: 7px;
+    width: 300px;
     padding: 20px 25px 20px 25px;
     font-weight: 500;
     font-size: 20px;
@@ -412,12 +2436,11 @@
     align-items: center;
     text-align: center;
     margin-bottom: 35px;
-    margin-top: 10px;
-    
+    margin-top: 35px;
 }
 .introduction-button-container:hover{
     scale:1.05;
-;   cursor: pointer;
+   cursor: pointer;
     transition: scale 0.15s;
 
 
@@ -458,9 +2481,7 @@
 .beard{
     border-bottom-style: solid;
 }
-.beard-cut{
-    border-bottom-style:solid;
-}
+
 .gallery-text-container{
     font-family: Osward;
     display: flex;
@@ -480,14 +2501,14 @@
 }
 .gallery-container{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     font-family: Osward;
-    gap:0px;
+    gap:50px;
     font-size: 24px;
     padding-top: 50px;
     background-color: #FAFAFA;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .gallery-container img {
     width: 100%;
@@ -499,13 +2520,5 @@
 .gallery-container p{
     text-align: center;
     font-size: 24px;
-}
-.book-button-container{
-    display: none;
-}
-
-  .main{
-    margin-top: 80px;
-
 }
 }
