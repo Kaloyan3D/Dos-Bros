@@ -1,3 +1,4 @@
+
 .main{
     margin-top: 200px;
     background-color:  #FAFAFA;;
@@ -59,30 +60,19 @@
 
 .barber-infos{
     display: grid;
-    grid-template-columns: 35% 35%;
-    gap: 200px;
+    grid-template-columns: 42% 42%;
+    gap: 100px;
     justify-content: center;
      align-items: stretch;
 }
-@media(max-width:1100px){
-  .barber-infos{
-    grid-template-columns: 1fr ;
-    margin: 0 50px 0 50px;
-  } 
-} 
-  @media (max-width: 767px) {
-    .barber-infos{
-    grid-template-columns: 1fr ;
-    }
-   
-  }  
+
 
 
 
 .barber-infos img{
     width: 100%;
     object-fit: cover;
-    height: 850px;
+    height: 650px;
     
     
 }
@@ -116,13 +106,13 @@
   
 }
 .number{
-      padding-bottom: 50%;
+      padding-bottom: 10%;
 }
 
 
 
 iframe{
-    height: 500px;
+    height: 530px;
     width: 100%;
 }
 iframe:hover{
@@ -147,9 +137,9 @@ iframe:hover{
 
 
 
-@media(max-width:800px)
-{
-  .main{
+/* 1) Extra‑Small Phones (≤ iPhone SE2) */
+@media (min-width: 0px) and (max-width: 376px) {
+   .main{
     margin-top: 200px;
     background-color:  #FAFAFA;;
 }
@@ -202,7 +192,7 @@ iframe:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700px;
     padding-bottom: 50px;
 }
@@ -287,5 +277,1280 @@ iframe:hover{
 .main{
     margin-top: 120px;
 
+}
+}
+
+/* 2) Average Phones (Pixel 7) */
+@media (min-width: 376px) and (max-width: 411px) {
+  .main{
+    margin-top: 200px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+   
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 70px;
+    height: 5px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+
+
+.barber-infos{
+    display: grid;
+    grid-template-columns: 35%;
+    gap: 70px;
+    justify-content: center;
+     align-items: stretch;
+     grid-template-columns: 1fr ;
+    margin: 0 30px 0 30px;
+}
+
+
+ 
+
+
+
+.barber-infos img{
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+    
+    
+}
+.barber-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    
+    text-align: center; 
+   border-style: solid;
+   border-width: 1px;
+   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+}
+.barber-card:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.barber-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.barber-card p{
+    font-size: 30px;
+    font-weight: 500;
+  
+   
+  
+}
+.number{
+      padding-bottom: 10%;
+}
+
+
+
+iframe{
+    height: 500px;
+    width: 100%;
+}
+iframe:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.map-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 720px;
+}
+.book-button-container{
+    display: none;
+}
+.main{
+    margin-top: 120px;
+
+}
+}
+
+/* 3) Large Phones (iPhone 16 Pro Max) */
+@media (min-width: 411px) and (max-width: 440px) {
+   .main{
+    margin-top: 200px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+   
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 70px;
+    height: 5px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+
+
+.barber-infos{
+    display: grid;
+    grid-template-columns: 35%;
+    gap: 70px;
+    justify-content: center;
+     align-items: stretch;
+     grid-template-columns: 1fr ;
+    margin: 0 30px 0 30px;
+}
+
+
+ 
+
+
+
+.barber-infos img{
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+    
+    
+}
+.barber-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    
+    text-align: center; 
+   border-style: solid;
+   border-width: 1px;
+   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+}
+.barber-card:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.barber-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.barber-card p{
+    font-size: 30px;
+    font-weight: 500;
+  
+   
+  
+}
+.number{
+      padding-bottom: 10%;
+}
+
+
+
+iframe{
+    height: 500px;
+    width: 100%;
+}
+iframe:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.map-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 720px;
+}
+.book-button-container{
+    display: none;
+}
+.main{
+    margin-top: 120px;
+
+}
+}
+
+/* 4) 8″ Tablets (e.g. iPad Mini) */ 
+@media (min-width: 440px) and (max-width: 769px) {
+  .main{
+    margin-top: 200px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+   
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 70px;
+    height: 5px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+
+
+.barber-infos{
+    display: grid;
+    grid-template-columns: 35%;
+    gap: 70px;
+    justify-content: center;
+     align-items: stretch;
+     grid-template-columns: 1fr ;
+    margin: 0 30px 0 30px;
+}
+
+
+ 
+
+
+
+.barber-infos img{
+    width: 100%;
+    object-fit: cover;
+    height: 550px;
+    
+    
+}
+.barber-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    
+    text-align: center; 
+   border-style: solid;
+   border-width: 1px;
+   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+}
+.barber-card:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.barber-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.barber-card p{
+    font-size: 30px;
+    font-weight: 500;
+  
+   
+  
+}
+.number{
+      padding-bottom: 10%;
+}
+
+
+
+iframe{
+    height: 570px;
+    width: 100%;
+}
+iframe:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.map-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 720px;
+}
+.book-button-container{
+    display: none;
+}
+.main{
+    margin-top: 120px;
+
+}
+}
+
+/* 5) 10″ Tablets (e.g. iPad 10) */
+@media (min-width: 769px) and (max-width: 810px) {
+.main{
+    margin-top: 200px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+   
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 70px;
+    height: 5px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+
+
+.barber-infos{
+    display: grid;
+    grid-template-columns: 35%;
+    gap: 70px;
+    justify-content: center;
+     align-items: stretch;
+     grid-template-columns: 1fr ;
+    margin: 0 30px 0 30px;
+}
+
+
+ 
+
+
+
+.barber-infos img{
+    width: 100%;
+    object-fit: cover;
+    height: 550px;
+    
+    
+}
+.barber-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    
+    text-align: center; 
+   border-style: solid;
+   border-width: 1px;
+   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+}
+.barber-card:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.barber-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.barber-card p{
+    font-size: 30px;
+    font-weight: 500;
+  
+   
+  
+}
+.number{
+      padding-bottom: 10%;
+}
+
+
+
+iframe{
+    height: 570px;
+    width: 100%;
+}
+iframe:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.map-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 720px;
+}
+.book-button-container{
+    display: none;
+}
+.main{
+    margin-top: 120px;
+
+}
+}
+
+/* 6) 11″ iPad Pro */
+@media (min-width: 811px) and (max-width: 835px) {
+.main{
+    margin-top: 200px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+   
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 70px;
+    height: 5px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+
+
+.barber-infos{
+    display: grid;
+    grid-template-columns: 35%;
+    gap: 70px;
+    justify-content: center;
+     align-items: stretch;
+     grid-template-columns: 1fr ;
+    margin: 0 30px 0 30px;
+}
+
+
+ 
+
+
+
+.barber-infos img{
+    width: 100%;
+    object-fit: cover;
+    height: 550px;
+    
+    
+}
+.barber-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    
+    text-align: center; 
+   border-style: solid;
+   border-width: 1px;
+   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+}
+.barber-card:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.barber-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.barber-card p{
+    font-size: 30px;
+    font-weight: 500;
+  
+   
+  
+}
+.number{
+      padding-bottom: 10%;
+}
+
+
+
+iframe{
+    height: 570px;
+    width: 100%;
+}
+iframe:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.map-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 720px;
+}
+.book-button-container{
+    display: none;
+}
+.main{
+    margin-top: 120px;
+
+}
+}
+
+/* 7) 13″ iPad Pro */
+@media (min-width: 835px) and (max-width: 1032px) {
+ .main{
+    margin-top: 200px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+   
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 70px;
+    height: 5px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+
+
+.barber-infos{
+    display: grid;
+    grid-template-columns: 35%;
+    gap: 70px;
+    justify-content: center;
+     align-items: stretch;
+     grid-template-columns: 1fr ;
+    margin: 0 100px 0 100px;
+}
+
+
+ 
+
+
+
+.barber-infos img{
+    width: 100%;
+    object-fit: cover;
+    height: 650px;
+    
+    
+}
+.barber-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    
+    text-align: center; 
+   border-style: solid;
+   border-width: 1px;
+   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+}
+.barber-card:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.barber-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.barber-card p{
+    font-size: 30px;
+    font-weight: 500;
+  
+   
+  
+}
+.number{
+      padding-bottom: 10%;
+}
+
+
+
+iframe{
+    height: 570px;
+    width: 100%;
+}
+iframe:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.map-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 720px;
+}
+.book-button-container{
+    display: none;
+}
+.main{
+    margin-top: 120px;
+
+}
+}
+
+/* 8) Full‑HD PCs (1080p) */
+@media (min-width: 1033px) and (max-width: 1921px) {
+ .main{
+    margin-top: 200px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+   
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 70px;
+    height: 5px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+
+
+.barber-infos{
+    display: grid;
+    grid-template-columns: 42% 42%;
+    gap: 100px;
+    justify-content: center;
+     align-items: stretch;
+}
+
+
+
+
+.barber-infos img{
+    width: 100%;
+    object-fit: cover;
+    height: 650px;
+    
+    
+}
+.barber-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center; 
+   border-style: solid;
+   border-width: 1px;
+   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+}
+.barber-card:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.barber-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.barber-card p{
+    font-size: 50px;
+    font-weight: 500;
+  
+   
+  
+}
+.number{
+      padding-bottom: 10%;
+}
+
+
+
+iframe{
+    height: 530px;
+    width: 100%;
+}
+iframe:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.map-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+}
+.number a {
+    color: black;
+    text-decoration: none;
+}
+
+.number a:hover {
+    text-decoration: underline;
+}
+}
+
+/* 9) QHD PCs (1440p) */
+@media (min-width: 1921px) and (max-width: 2561px) {
+ .main{
+    margin-top: 200px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+   
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 70px;
+    height: 5px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+
+
+.barber-infos{
+    display: grid;
+    grid-template-columns: 42% 42%;
+    gap: 100px;
+    justify-content: center;
+     align-items: stretch;
+}
+
+
+
+
+.barber-infos img{
+    width: 100%;
+    object-fit: cover;
+    height: 850px;
+    
+    
+}
+.barber-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center; 
+   border-style: solid;
+   border-width: 1px;
+   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+}
+.barber-card:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.barber-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.barber-card p{
+    font-size: 50px;
+    font-weight: 500;
+  
+   
+  
+}
+.number{
+      padding-bottom: 10%;
+}
+
+
+
+iframe{
+    height: 530px;
+    width: 100%;
+}
+iframe:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.map-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+}
+.number a {
+    color: black;
+    text-decoration: none;
+}
+
+.number a:hover {
+    text-decoration: underline;
+}
+}
+
+/* 10) UHD PCs (4K) */
+@media (min-width: 2561px) and (max-width: 3841px) {
+  .main{
+    margin-top: 200px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+   
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 200px;
+    height: 10px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+
+
+.barber-infos{
+    display: grid;
+    grid-template-columns: 42% 42%;
+    gap: 200px;
+    justify-content: center;
+     align-items: stretch;
+}
+
+
+
+
+.barber-infos img{
+    width: 100%;
+    object-fit: cover;
+    height: 1550px;
+    
+    
+}
+.barber-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center; 
+   border-style: solid;
+   border-width: 1px;
+   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+}
+.barber-card:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.barber-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.barber-card p{
+    font-size: 50px;
+    font-weight: 500;
+  
+   
+  
+}
+.number{
+      padding-bottom: 10%;
+}
+
+
+
+iframe{
+    height: 800px;
+    width: 100%;
+}
+iframe:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.map-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+}
+.number a {
+    color: black;
+    text-decoration: none;
+}
+
+.number a:hover {
+    text-decoration: underline;
 }
 }
