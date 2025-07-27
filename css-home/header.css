@@ -163,3 +163,6 @@ svg{
 .removeSidebar {
   margin-top: 40px; /* Adjust this value to your liking */
 }
+.sidebar {
+  overflow: hidden;
+}
