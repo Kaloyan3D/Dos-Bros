@@ -1,4 +1,4 @@
-.main{
+ .main{
     margin-top: 200px;
     background-color:  #FAFAFA;;
 }
@@ -133,12 +133,86 @@
     font-weight: 700;
 }
 
+.carousel-wrapper {
+  position: relative;
+  max-width: 1800px;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+}
+.carousel-wrapper img{
+    height: 70px;
+    width: 70px;
+}
+.all-reviews-carousel {
+  overflow: hidden;
+  flex: 1;
+  /* Add padding to prevent content from touching edges */
+  padding: 0 5px;
+}
+.review-img-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between image and name */
+   width: 50px; /* adjust as needed */
+  height: 50px;
+  border-radius: 50%; /* for circular profile picture */
+  object-fit: cover;
+}
+
+.reviews-track {
+  display: flex;
+  transition: transform 0.4s ease;
+  /* Remove any default margins */
+  margin: 0;
+}
+
+.review-container {
+  flex-shrink: 0;
+  /* Use calc to account for margins properly */
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  margin: 0 10px;
+  border: 2px solid black;
+  /* Ensure minimum height for consistency */
+  min-height: 150px;
+}
+
+/* Arrows outside the box */
+.arrow {
+  background: #0008;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  /* Prevent shrinking */
+  flex-shrink: 0;
+}
+
+.arrow:hover {
+  background: #000a;
+}
+
+/* Stars */
+.checked {
+  color: gold;
+}
 
 
 
 
-@media(max-width:800px)
-{
+
+/* 1) Extra‑Small Phones (≤ iPhone SE2) */
+@media (min-width: 0px) and (max-width: 376px) {
+ 
     .main{
     margin-top: 100px;
     background-color:  #FAFAFA;;
@@ -191,7 +265,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700px;
     padding-bottom: 50px;
 }
@@ -229,13 +303,817 @@
     height: 300px;
     margin-bottom: 10px;
 }
+  .review-container {
+    width: calc(100% - 20px); /* 1 review per row with margins */
+    font-size: 15px;
+    
+  }
+    .carousel-wrapper img{
+        height: 50px;
+        width: 50px;
+}
+.book-button-container{
+    display: none;
+}
+}
+
+/* 2) Average Phones (Pixel 7) */
+@media (min-width: 376px) and (max-width: 411px) {
+   .main{
+    margin-top: 100px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 70px;
+    height: 5px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+
+.whole-info{
+    display: flex;
+    flex-direction: column;
+}
+.barber-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0px;
+}
+.barber-column {
+    text-align: center;
+    
+}
+
+.barber-column img {
+
+    width: 350px;
+    object-fit: cover;
+    height: 300px;
+    
+}
+
+.barber-column p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ahmed-certificates img,
+.iliaz-certificates img {
+    height: 300px;
+    margin-bottom: 10px;
+}
+  .review-container {
+    width: calc(100% - 20px); /* 1 review per row with margins */
+    font-size: 15px;
+    
+  }
+    .carousel-wrapper img{
+        height: 50px;
+        width: 50px;
+}
+.book-button-container{
+    display: none;
+}
+}
+
+/* 3) Large Phones (iPhone 16 Pro Max) */
+@media (min-width: 411px) and (max-width: 440px) {
+    .main{
+    margin-top: 100px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 70px;
+    height: 5px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+
+.whole-info{
+    display: flex;
+    flex-direction: column;
+}
+.barber-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0px;
+}
+.barber-column {
+    text-align: center;
+    
+}
+
+.barber-column img {
+
+    width: 350px;
+    object-fit: cover;
+    height: 300px;
+    
+}
+
+.barber-column p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ahmed-certificates img,
+.iliaz-certificates img {
+    height: 300px;
+    margin-bottom: 10px;
+}
+  .review-container {
+    width: calc(100% - 20px); /* 1 review per row with margins */
+    font-size: 15px;
+    
+  }
+    .carousel-wrapper img{
+        height: 50px;
+        width: 50px;
+}
+.book-button-container{
+    display: none;
+}
+}
+
+/* 4) 8″ Tablets (e.g. iPad Mini) */ 
+@media (min-width: 440px) and (max-width: 769px) {
+   .main{
+    margin-top: 100px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 70px;
+    height: 5px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+
+.whole-info{
+    display: flex;
+    flex-direction: column;
+}
+.barber-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0px;
+}
+.barber-column {
+    text-align: center;
+    
+}
+
+.barber-column img {
+
+    width: 550px;
+    object-fit: cover;
+    height: 400px;
+    
+}
+
+.barber-column p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ahmed-certificates img,
+.iliaz-certificates img {
+    height: 400px;
+    margin-bottom: 10px;
+}
+  .review-container {
+    width: calc(100% - 20px); /* 1 review per row with margins */
+    font-size: 25px;
+    
+  }
+    .carousel-wrapper img{
+        height: 50px;
+        width: 50px;
+}
+.review-stars{
+    margin-top: 10px;
+}
+.review-username{
+    width: 500px;
+}
+.book-button-container{
+    display: none;
+}
+}
+
+/* 5) 10″ Tablets (e.g. iPad 10) */
+@media (min-width: 769px) and (max-width: 810px) {
+    .main{
+    margin-top: 100px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 70px;
+    height: 5px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+
+.whole-info{
+    display: flex;
+    flex-direction: column;
+}
+.barber-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0px;
+}
+.barber-column {
+    text-align: center;
+    
+}
+
+.barber-column img {
+
+    width: 550px;
+    object-fit: cover;
+    height: 400px;
+    
+}
+
+.barber-column p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ahmed-certificates img,
+.iliaz-certificates img {
+    height: 400px;
+    margin-bottom: 10px;
+}
+  .review-container {
+    width: calc(100% - 20px); /* 1 review per row with margins */
+    font-size: 25px;
+    
+  }
+    .carousel-wrapper img{
+        height: 50px;
+        width: 50px;
+}
+.review-stars{
+    margin-top: 10px;
+}
+.review-username{
+    width: 500px;
+}
+.book-button-container{
+    display: none;
+}
+}
+
+/* 6) 11″ iPad Pro */
+@media (min-width: 811px) and (max-width: 835px) {
+   .main{
+    margin-top: 120px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 70px;
+    height: 5px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+
+.whole-info{
+    display: flex;
+    flex-direction: column;
+}
+.barber-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0px;
+}
+.barber-column {
+    text-align: center;
+    
+}
+
+.barber-column img {
+
+    width: 550px;
+    object-fit: cover;
+    height: 400px;
+    
+}
+
+.barber-column p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ahmed-certificates img,
+.iliaz-certificates img {
+    height: 400px;
+    margin-bottom: 10px;
+}
+  .review-container {
+    width: calc(100% - 20px); /* 1 review per row with margins */
+    font-size: 25px;
+    
+  }
+    .carousel-wrapper img{
+        height: 50px;
+        width: 50px;
+}
+.review-stars{
+    margin-top: 10px;
+}
+.review-username{
+    width: 500px;
+}
+.book-button-container{
+    display: none;
+}
+}
+
+/* 7) 13″ iPad Pro */
+@media (min-width: 835px) and (max-width: 1032px) {
+      .main{
+    margin-top: 130px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 70px;
+    height: 5px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+
+.whole-info{
+    display: flex;
+    flex-direction: column;
+}
+.barber-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0px;
+}
+.barber-column {
+    text-align: center;
+    
+}
+
+.barber-column img {
+
+    width: 700px;
+    object-fit: cover;
+    height: 580px;
+    
+}
+
+.barber-column p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ahmed-certificates img,
+.iliaz-certificates img {
+    height: 490px;
+    margin-bottom: 10px;
+}
+  .review-container {
+    width: calc(100% - 20px); /* 1 review per row with margins */
+    font-size: 27px;
+    
+  }
+    .carousel-wrapper img{
+        height: 50px;
+        width: 50px;
+}
+.review-stars{
+    margin-top: 10px;
+}
+.review-username{
+    width: 500px;
+}
+.book-button-container{
+    display: none;
+}
+
+}
+
+/* 8) Full‑HD PCs (1080p) */
+@media (min-width: 1033px) and (max-width: 1921px) {
+  .main{
+    margin-top: 200px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 70px;
+    height: 5px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
 
 
+.whole-info{
+    display: flex;
+    flex-direction: column;
+}
+.barber-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+}
+.barber-column {
+    text-align: center;
+    
+}
+
+.barber-column img {
+    height: 80%;
+    width: 70%;
+    object-fit: cover;
+    height: 700px;
+    
+}
+
+.barber-column p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ahmed-certificates img,
+.iliaz-certificates img {
+    height: 300px;
+    margin-bottom: 10px;
 }
 
 
 
+.barber-infos img{
+    height: 80%;
+    width: 70%;
+    object-fit: cover;
+    
+}
+.iliaz-info{
 
+    text-align: center;
+
+}
+.ahmed-info{
+
+     text-align: center;
+}
+.iliaz-info, .ahmed-info p{
+    font-size: 30px;
+    font-weight: 700;
+  
+}
+
+.iliaz-img, .ahmed-img{
+    border-radius: 30px;
+}
+
+.certificates{
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+.ahmed-certificates img, .iliaz-certificates img{
+        height: 500px;
+
+}
+.ahmed-certificates p, .iliaz-certificates p{
+    font-size: 24px;
+    font-weight: 700;
+}
 
 .carousel-wrapper {
   position: relative;
@@ -310,8 +1188,18 @@
   color: gold;
 }
 
+
+
+
+
+
+
+
+
+
+
 /* 📱 Responsive settings */
-@media (min-width: 768px) {
+
   .review-container {
     width: calc(33.333% - 20px); /* 3 reviews per row with margins */
    
@@ -319,19 +1207,461 @@
 
 }
 
-@media (max-width: 767px) {
-  .review-container {
-    width: calc(100% - 20px); /* 1 review per row with margins */
-    font-size: 15px;
-    
-  }
-    .carousel-wrapper img{
-        height: 50px;
-        width: 50px;
+/* 9) QHD PCs (1440p) */
+@media (min-width: 1921px) and (max-width: 2561px) {
+  .main{
+    margin-top: 200px;
+    background-color:  #FAFAFA;;
 }
 .book-button-container{
-    display: none;
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
 }
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 70px;
+    height: 5px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700px;
+    padding-bottom: 50px;
 }
 
 
+.whole-info{
+    display: flex;
+    flex-direction: column;
+}
+.barber-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+}
+.barber-column {
+    text-align: center;
+    
+}
+
+.barber-column img {
+    height: 80%;
+    width: 70%;
+    object-fit: cover;
+    height: 700px;
+    
+}
+
+.barber-column p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ahmed-certificates img,
+.iliaz-certificates img {
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+
+
+.barber-infos img{
+    height: 80%;
+    width: 70%;
+    object-fit: cover;
+    
+}
+.iliaz-info{
+
+    text-align: center;
+
+}
+.ahmed-info{
+
+     text-align: center;
+}
+.iliaz-info, .ahmed-info p{
+    font-size: 30px;
+    font-weight: 700;
+  
+}
+
+.iliaz-img, .ahmed-img{
+    border-radius: 30px;
+}
+
+.certificates{
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+.ahmed-certificates img, .iliaz-certificates img{
+        height: 500px;
+
+}
+.ahmed-certificates p, .iliaz-certificates p{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.carousel-wrapper {
+  position: relative;
+  max-width: 2500px;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  font-size: 25px;
+}
+.carousel-wrapper img{
+    height: 70px;
+    width: 70px;
+
+}
+.all-reviews-carousel {
+  overflow: hidden;
+  flex: 1;
+  /* Add padding to prevent content from touching edges */
+  padding: 0 5px;
+}
+.review-img-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between image and name */
+   width: 50px; /* adjust as needed */
+  height: 50px;
+  border-radius: 50%; /* for circular profile picture */
+  object-fit: cover;
+}
+
+.reviews-track {
+  display: flex;
+  transition: transform 0.4s ease;
+  /* Remove any default margins */
+  margin: 0;
+}
+
+.review-container {
+  flex-shrink: 0;
+  /* Use calc to account for margins properly */
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  margin: 0 10px;
+  border: 2px solid black;
+  /* Ensure minimum height for consistency */
+  min-height: 150px;
+}
+
+/* Arrows outside the box */
+.arrow {
+  background: #0008;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  /* Prevent shrinking */
+  flex-shrink: 0;
+}
+
+.arrow:hover {
+  background: #000a;
+}
+
+/* Stars */
+.checked {
+  color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 📱 Responsive settings */
+
+  .review-container {
+    width: calc(33.333% - 20px); /* 3 reviews per row with margins */
+   
+  }
+
+}
+
+/* 10) UHD PCs (4K) */
+@media (min-width: 2561px) and (max-width: 3840px) {
+ .main{
+    margin-top: 200px;
+    background-color:  #FAFAFA;;
+}
+.book-button-container{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+.book-button{
+    background-color:#001f3fc0;
+    font-weight: bold;
+    color:white;
+    border-width: 2px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+
+}
+.book-button:hover{
+        scale:1.05;
+;   cursor: pointer;
+    transition: scale 0.3s;
+    background-color: #001f3f;
+    transition: background-color 0.3s;
+}
+
+.title{
+    margin: 50px;
+    
+}
+.title p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #D22B2B;
+    margin-top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 200px;
+    height: 10px;
+    position: absolute;
+}
+.introduction-text{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+
+
+.whole-info{
+    display: flex;
+    flex-direction: column;
+}
+.barber-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+}
+.barber-column {
+    text-align: center;
+    
+}
+
+.barber-column img {
+    
+    width: 1300px;
+    object-fit: cover;
+    height: 1000px;
+    
+}
+
+.barber-column p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ahmed-certificates img,
+.iliaz-certificates img {
+    height: 1000px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.iliaz-info{
+
+    text-align: center;
+
+}
+.ahmed-info{
+
+     text-align: center;
+}
+.iliaz-info, .ahmed-info p{
+    font-size: 30px;
+    font-weight: 700;
+  
+}
+
+.iliaz-img, .ahmed-img{
+    border-radius: 30px;
+}
+
+.certificates{
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+.ahmed-certificates img, .iliaz-certificates img{
+        height: 800px;
+
+}
+.ahmed-certificates p, .iliaz-certificates p{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.carousel-wrapper {
+  position: relative;
+  max-width: 2500px;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  font-size: 45px;
+}
+.carousel-wrapper img{
+    height: 70px;
+    width: 70px;
+}
+.all-reviews-carousel {
+  overflow: hidden;
+  flex: 1;
+  /* Add padding to prevent content from touching edges */
+  padding: 0 5px;
+}
+.review-img-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between image and name */
+   width: 50px; /* adjust as needed */
+  height: 50px;
+  border-radius: 50%; /* for circular profile picture */
+  object-fit: cover;
+}
+
+.reviews-track {
+  display: flex;
+  transition: transform 0.4s ease;
+  /* Remove any default margins */
+  margin: 0;
+}
+
+.review-container {
+  flex-shrink: 0;
+  /* Use calc to account for margins properly */
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  margin: 0 10px;
+  border: 2px solid black;
+  /* Ensure minimum height for consistency */
+  min-height: 150px;
+  padding-top: 50px;
+}
+
+/* Arrows outside the box */
+.arrow {
+  background: #0008;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  /* Prevent shrinking */
+  flex-shrink: 0;
+}
+
+.arrow:hover {
+  background: #000a;
+}
+
+/* Stars */
+.checked {
+    padding-top: 50px;
+  color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 📱 Responsive settings */
+
+  .review-container {
+    width: calc(33.333% - 20px); /* 3 reviews per row with margins */
+   
+  }
+
+}
