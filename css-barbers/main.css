@@ -1089,7 +1089,7 @@
 
      text-align: center;
 }
-.iliaz-info, .ahmed-info p{
+.barber-column p{
     font-size: 30px;
     font-weight: 700;
   
@@ -1318,7 +1318,7 @@
 
      text-align: center;
 }
-.iliaz-info, .ahmed-info p{
+.barber-column p{
     font-size: 30px;
     font-weight: 700;
   
@@ -1545,10 +1545,10 @@
 
      text-align: center;
 }
-.iliaz-info, .ahmed-info p{
+.barber-column p{
     font-size: 30px;
     font-weight: 700;
-  
+   
 }
 
 .iliaz-img, .ahmed-img{

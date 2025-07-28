@@ -1,0 +1,58 @@
+<div class="button-wrapper">
+  <button class="frosty-button">Fire & Ice</button>
+</div>
+<style>
+    body {
+  background-color: #001f3f;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.button-wrapper {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 2rem;
+  border-radius: 16px;
+}
+
+.frosty-button {
+  padding: 0.75rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.frosty-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, #D22B2B55 0%, transparent 80%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+
+.frosty-button:hover::before {
+  opacity: 1;
+}
+
+.frosty-button:hover {
+  box-shadow: 0 0 20px #D22B2B, 0 0 40px #D22B2B66;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+</style>
