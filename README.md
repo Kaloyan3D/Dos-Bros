@@ -1,20 +1,21 @@
-Dosbros ✂️💈
-Dosbros is a sleek, responsive website built for a local barbershop owned by two brothers. The site serves as an online presence for the shop, showcasing its services, style, and story — all while making it easy for new and returning clients to find information and connect.
+# Dosbros ✂️💈
 
-✨ Features
-🔥 Modern, mobile-friendly design
+**Dosbros** is a sleek, responsive website created for a local barbershop owned by two brothers. The site highlights the shop’s personality, services, and story — offering visitors an easy way to learn more and connect.
 
-🧑‍🤝‍🧑 Story-driven branding focused on the two brother barbers
+---
 
-🕒 Opening hours, location, and contact details
+## ✨ Features
 
-💇‍♂️ Gallery of haircuts and services
+- 🔥 Modern, mobile-friendly design  
+- 🧑‍🤝‍🧑 Story-driven branding focused on the two brother barbers  
+- 🕒 Opening hours, location, and contact details  
+- 💇‍♂️ Gallery showcasing styles and services  
+- 📍 Google Maps integration  
+- ⚡️ Fast-loading static site optimized for performance and SEO  
 
-📍 Google Maps integration
+---
 
-⚡️ Fast-loading static site optimized for performance and SEO
+## 🚀 Tech Stack
 
-🚀 Tech Stack
-Built With: HTML, CSS, JavaScript
-
-Hosting: Netlify
+- **Built With:** HTML, CSS, JavaScript  
+- **Hosting:** Netlify
