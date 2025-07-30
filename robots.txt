@@ -1,0 +1,41 @@
+User-agent: *
+Allow: /
+
+# Allow crawling of image folders
+Allow: /Barbers/
+Allow: /Gallery/
+Allow: /Home-Page-Images/
+Allow: /Logos/
+Allow: /Review-Profile-Pics/
+Allow: /Social Medias/
+
+# Allow crawling of image file types
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.webp
+Allow: /*.gif
+Allow: /*.svg
+
+# Allow crawling of CSS folders
+Allow: /css-barbers/
+Allow: /css-contacts/
+Allow: /css-home/
+Allow: /*.css
+
+# Allow crawling of JS files
+Allow: /*.js
+
+# Allow HTML pages
+Allow: /barbers.html
+Allow: /contacts.html
+Allow: /index.html
+
+# Block unnecessary files
+Disallow: /Certificates/
+Disallow: /cgi-bin/
+Disallow: /.htaccess
+Disallow: /error/
+
+# Sitemap location
+Sitemap: https://dosbros.net/sitemap.xml
