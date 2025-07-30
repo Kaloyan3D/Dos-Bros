@@ -126,6 +126,7 @@
 
 .ahmed-certificates img, .iliaz-certificates img{
         height: 500px;
+              object-fit:contain;
 
 }
 .ahmed-certificates p, .iliaz-certificates p{
@@ -150,29 +151,27 @@
 .all-reviews-carousel {
   overflow: hidden;
   flex: 1;
-  /* Add padding to prevent content from touching edges */
+
   padding: 0 5px;
 }
 .review-img-container {
   display: flex;
   align-items: center;
-  gap: 10px; /* space between image and name */
-   width: 50px; /* adjust as needed */
+  gap: 10px; 
+   width: 50px; 
   height: 50px;
-  border-radius: 50%; /* for circular profile picture */
+  border-radius: 50%; 
   object-fit: cover;
 }
 
 .reviews-track {
   display: flex;
   transition: transform 0.4s ease;
-  /* Remove any default margins */
   margin: 0;
 }
 
 .review-container {
   flex-shrink: 0;
-  /* Use calc to account for margins properly */
   width: calc(100% - 20px);
   box-sizing: border-box;
   padding: 20px;
@@ -180,11 +179,9 @@
   border-radius: 10px;
   margin: 0 10px;
   border: 2px solid black;
-  /* Ensure minimum height for consistency */
   min-height: 150px;
 }
 
-/* Arrows outside the box */
 .arrow {
   background: #0008;
   color: white;
@@ -193,7 +190,6 @@
   padding: 10px 15px;
   cursor: pointer;
   border-radius: 8px;
-  /* Prevent shrinking */
   flex-shrink: 0;
 }
 
@@ -302,6 +298,7 @@
 .iliaz-certificates img {
     height: 300px;
     margin-bottom: 10px;
+          object-fit:contain;
 }
   .review-container {
     width: calc(100% - 20px); /* 1 review per row with margins */
@@ -408,6 +405,7 @@
 .iliaz-certificates img {
     height: 300px;
     margin-bottom: 10px;
+          object-fit:contain;
 }
   .review-container {
     width: calc(100% - 20px); /* 1 review per row with margins */
@@ -514,6 +512,7 @@
 .iliaz-certificates img {
     height: 300px;
     margin-bottom: 10px;
+          object-fit:contain;
 }
   .review-container {
     width: calc(100% - 20px); /* 1 review per row with margins */
@@ -620,6 +619,7 @@
 .iliaz-certificates img {
     height: 400px;
     margin-bottom: 10px;
+          object-fit:contain;
 }
   .review-container {
     width: calc(100% - 20px); /* 1 review per row with margins */
@@ -732,6 +732,7 @@
 .iliaz-certificates img {
     height: 400px;
     margin-bottom: 10px;
+          object-fit:contain;
 }
   .review-container {
     width: calc(100% - 20px); /* 1 review per row with margins */
@@ -844,6 +845,7 @@
 .iliaz-certificates img {
     height: 400px;
     margin-bottom: 10px;
+          object-fit:contain;
 }
   .review-container {
     width: calc(100% - 20px); /* 1 review per row with margins */
@@ -956,6 +958,7 @@
 .iliaz-certificates img {
     height: 490px;
     margin-bottom: 10px;
+          object-fit:contain;
 }
   .review-container {
     width: calc(100% - 20px); /* 1 review per row with margins */
@@ -1108,6 +1111,7 @@
 
 .ahmed-certificates img, .iliaz-certificates img{
         height: 500px;
+              object-fit:contain;
 
 }
 .ahmed-certificates p, .iliaz-certificates p{
@@ -1132,29 +1136,26 @@
 .all-reviews-carousel {
   overflow: hidden;
   flex: 1;
-  /* Add padding to prevent content from touching edges */
   padding: 0 5px;
 }
 .review-img-container {
   display: flex;
   align-items: center;
-  gap: 10px; /* space between image and name */
-   width: 50px; /* adjust as needed */
+  gap: 10px; 
+   width: 50px; 
   height: 50px;
-  border-radius: 50%; /* for circular profile picture */
+  border-radius: 50%; 
   object-fit: cover;
 }
 
 .reviews-track {
   display: flex;
   transition: transform 0.4s ease;
-  /* Remove any default margins */
   margin: 0;
 }
 
 .review-container {
   flex-shrink: 0;
-  /* Use calc to account for margins properly */
   width: calc(100% - 20px);
   box-sizing: border-box;
   padding: 20px;
@@ -1162,11 +1163,9 @@
   border-radius: 10px;
   margin: 0 10px;
   border: 2px solid black;
-  /* Ensure minimum height for consistency */
   min-height: 150px;
 }
 
-/* Arrows outside the box */
 .arrow {
   background: #0008;
   color: white;
@@ -1175,7 +1174,6 @@
   padding: 10px 15px;
   cursor: pointer;
   border-radius: 8px;
-  /* Prevent shrinking */
   flex-shrink: 0;
 }
 
@@ -1187,19 +1185,6 @@
 .checked {
   color: gold;
 }
-
-
-
-
-
-
-
-
-
-
-
-/* 📱 Responsive settings */
-
   .review-container {
     width: calc(33.333% - 20px); /* 3 reviews per row with margins */
    
@@ -1299,6 +1284,7 @@
 .iliaz-certificates img {
     height: 300px;
     margin-bottom: 10px;
+    
 }
 
 
@@ -1337,6 +1323,8 @@
 
 .ahmed-certificates img, .iliaz-certificates img{
         height: 500px;
+        object-fit:contain;
+        
 
 }
 .ahmed-certificates p, .iliaz-certificates p{
@@ -1363,29 +1351,26 @@
 .all-reviews-carousel {
   overflow: hidden;
   flex: 1;
-  /* Add padding to prevent content from touching edges */
   padding: 0 5px;
 }
 .review-img-container {
   display: flex;
   align-items: center;
-  gap: 10px; /* space between image and name */
-   width: 50px; /* adjust as needed */
+  gap: 10px; 
+   width: 50px; 
   height: 50px;
-  border-radius: 50%; /* for circular profile picture */
+  border-radius: 50%; 
   object-fit: cover;
 }
 
 .reviews-track {
   display: flex;
   transition: transform 0.4s ease;
-  /* Remove any default margins */
   margin: 0;
 }
 
 .review-container {
   flex-shrink: 0;
-  /* Use calc to account for margins properly */
   width: calc(100% - 20px);
   box-sizing: border-box;
   padding: 20px;
@@ -1393,11 +1378,9 @@
   border-radius: 10px;
   margin: 0 10px;
   border: 2px solid black;
-  /* Ensure minimum height for consistency */
   min-height: 150px;
 }
 
-/* Arrows outside the box */
 .arrow {
   background: #0008;
   color: white;
@@ -1406,7 +1389,6 @@
   padding: 10px 15px;
   cursor: pointer;
   border-radius: 8px;
-  /* Prevent shrinking */
   flex-shrink: 0;
 }
 
@@ -1414,27 +1396,12 @@
   background: #000a;
 }
 
-/* Stars */
 .checked {
   color: gold;
      padding-top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-/* 📱 Responsive settings */
-
   .review-container {
     width: calc(33.333% - 20px); /* 3 reviews per row with margins */
-   
   }
 
 }
@@ -1532,6 +1499,7 @@
 .iliaz-certificates img {
     height: 1000px;
     margin-bottom: 10px;
+    
 }
 
 
@@ -1590,29 +1558,26 @@
 .all-reviews-carousel {
   overflow: hidden;
   flex: 1;
-  /* Add padding to prevent content from touching edges */
   padding: 0 5px;
 }
 .review-img-container {
   display: flex;
   align-items: center;
-  gap: 10px; /* space between image and name */
-   width: 50px; /* adjust as needed */
+  gap: 10px; 
+   width: 50px; 
   height: 50px;
-  border-radius: 50%; /* for circular profile picture */
+  border-radius: 50%;
   object-fit: cover;
 }
 
 .reviews-track {
   display: flex;
   transition: transform 0.4s ease;
-  /* Remove any default margins */
   margin: 0;
 }
 
 .review-container {
   flex-shrink: 0;
-  /* Use calc to account for margins properly */
   width: calc(100% - 20px);
   box-sizing: border-box;
   padding: 20px;
@@ -1620,12 +1585,11 @@
   border-radius: 10px;
   margin: 0 10px;
   border: 2px solid black;
-  /* Ensure minimum height for consistency */
   min-height: 150px;
   padding-top: 50px;
 }
 
-/* Arrows outside the box */
+
 .arrow {
   background: #0008;
   color: white;
@@ -1634,7 +1598,6 @@
   padding: 10px 15px;
   cursor: pointer;
   border-radius: 8px;
-  /* Prevent shrinking */
   flex-shrink: 0;
 }
 
@@ -1642,24 +1605,11 @@
   background: #000a;
 }
 
-/* Stars */
+
 .checked {
     padding-top: 50px;
   color: gold;
 }
-
-
-
-
-
-
-
-
-
-
-
-/* 📱 Responsive settings */
-
   .review-container {
     width: calc(33.333% - 20px); /* 3 reviews per row with margins */
    
