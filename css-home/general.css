@@ -5,7 +5,7 @@ html, body{
        background-color: #FAFAFA;
          max-width: 100%;
 }
-p{
+p,h1,h2{
     font-family:Oswald, Arial;
 }
 div{
