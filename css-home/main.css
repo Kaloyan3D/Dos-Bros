@@ -1,3 +1,223 @@
+/* General/Footer/Header */
+html, body{
+
+    overflow-x:hidden;
+       margin:0;
+       background-color: #FAFAFA;
+         max-width: 100%;
+}
+p,h1,h2{
+    font-family:Oswald, Arial;
+}
+div{
+    font-family:Oswald, Arial;
+}
+* {
+  box-sizing: border-box;
+}
+
+footer{
+   background-color: #001f3f;
+    height: 80px;
+    color: white;
+    font-size:24px;
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+    width: 100%;
+    font-family: Oswald, Arial;
+    bottom: 0;
+}
+@media(max-width:800px){
+    footer{
+   background-color: #001f3f;
+    height: 80px;
+    color: white;
+    font-size:20px;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    width: 100%;
+    font-family: Oswald, Arial;
+    bottom: 0;
+}
+}
+header {
+  background-color: #001f3f;
+  color: #F9F1E5;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  z-index: 1000;
+}
+header a{
+  text-decoration: none;
+  color:white 
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  height: 100%;
+  padding-left: 20px;
+  font-size: 25px;
+}
+.menu-header a:hover{
+  color: #D22B2B;
+  transition: color 0.15s;
+}
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* spacing between logo and menu items */
+}
+
+.logo-img {
+  height: 100px;
+}
+.logo-img:hover {
+   transform: scale(1.03);
+   cursor: pointer;
+}
+.social-medias {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-right: 20px;
+  color: white;
+  padding-top: 10px;
+  fill:white;
+  
+}
+.social-medias a svg{
+  height: 32px;
+}
+svg:hover{
+  fill:#D22B2B;
+  transition: fill 0.15s;
+}
+.left-section ul,
+.social-medias ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.left-section li,
+.social-medias li {
+
+  align-items: center;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 79%;
+  z-index: 999;
+  background-color: #001f3f93;
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  color: black;
+  transform: translateX(100%);
+  opacity: 0;
+  pointer-events: none;
+ display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Push content to top and bottom */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Push content to top and bottom */
+  padding: 20px;
+}
+
+.sidebar-socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 20px;
+  margin-top: auto; /* Push to bottom */
+}
+
+.sidebar-socials a svg {
+  height: 28px;
+  fill: white;
+  transition: fill 0.2s ease;
+}
+
+.sidebar-socials a svg:hover {
+  fill: #D22B2B;
+}
+.sidebar.active {
+  transform: translateX(0%);
+  opacity: 1;
+  pointer-events: auto;
+}
+svg{
+  fill: white;
+  
+}
+
+@media(max-width:800px)
+{
+   .hideOnMobile{
+    display: none;
+    
+  }
+  header{
+    height:80px;
+  }
+   .logo-img{
+    height: 80px;
+   }
+
+
+
+  
+}
+@media(min-width:801px)
+{
+  .menu-button{
+    display: none;
+    left: 0;
+  
+  }
+
+   
+}
+.removeSidebar {
+  margin-top: 40px; /* Adjust this value to your liking */
+}
+.sidebar {
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
 
 /* 1) Extra‑Small Phones (≤ iPhone SE2) */
 @media (min-width:   0px) and (max-width:  376px) {
