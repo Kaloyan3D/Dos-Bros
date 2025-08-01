@@ -8,6 +8,7 @@ html, body{
 }
 p,h1,h2{
     font-family:Oswald, Arial;
+  
 }
 div{
     font-family:Oswald, Arial;
@@ -442,6 +443,7 @@ svg{
 }
 .gallery-text-container p{
      margin:0px;
+       font-weight: 500;
 }
 .gallery-container{
     display: grid;
@@ -582,7 +584,7 @@ svg{
     justify-content: center;
     font-family: Roboto,Arial;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 35px;
     color: #FAFAFA;
 }
 
@@ -687,7 +689,7 @@ svg{
     font-family: Osward;
     display: flex;
     gap:20px;
-    font-size:40px;
+    font-size:35px;
     background-color: #D22B2B;
      height: 90px;
     align-items: center;
@@ -699,6 +701,7 @@ svg{
 }
 .gallery-text-container p{
      margin:0px;
+       font-weight: 500;
 }
 .gallery-container{
     display: grid;
@@ -905,7 +908,7 @@ svg{
 }
 .prices-line-contaier{
     background-color:#D22B2B;
-    height: 120px;
+    height: 100px;
         display: flex;
     align-items: center;
     justify-content: center;
@@ -944,7 +947,7 @@ svg{
     font-family: Osward;
     display: flex;
     gap:20px;
-    font-size:40px;
+    font-size:35px;
     background-color: #D22B2B;
     height: 100px;
     align-items: center;
@@ -956,6 +959,7 @@ svg{
 }
 .gallery-text-container p{
      margin:0px;
+       font-weight: 500;
 }
 .gallery-container{
     display: grid;
@@ -1162,7 +1166,7 @@ svg{
 }
 .prices-line-contaier{
     background-color:#D22B2B;
-    height: 120px;
+    height: 100px;
         display: flex;
     align-items: center;
     justify-content: center;
@@ -1201,7 +1205,7 @@ svg{
     font-family: Osward;
     display: flex;
     gap:20px;
-    font-size:40px;
+    font-size:35px;
     background-color: #D22B2B;
     height: 100px;
     align-items: center;
@@ -1213,6 +1217,7 @@ svg{
 }
 .gallery-text-container p{
      margin:0px;
+       font-weight: 500;
 }
 .gallery-container{
     display: grid;
@@ -1419,7 +1424,7 @@ svg{
 }
 .prices-line-contaier{
     background-color:#D22B2B;
-    height: 120px;
+    height: 100px;
         display: flex;
     align-items: center;
     justify-content: center;
@@ -1458,7 +1463,7 @@ svg{
     font-family: Osward;
     display: flex;
     gap:20px;
-    font-size:40px;
+    font-size:35px;
     background-color: #D22B2B;
     height: 100px;
     align-items: center;
@@ -1470,6 +1475,7 @@ svg{
 }
 .gallery-text-container p{
      margin:0px;
+       font-weight: 500;
 }
 .gallery-container{
     display: grid;
@@ -1676,7 +1682,7 @@ svg{
 }
 .prices-line-contaier{
     background-color:#D22B2B;
-    height: 120px;
+    height: 100px;
         display: flex;
     align-items: center;
     justify-content: center;
@@ -1715,7 +1721,7 @@ svg{
     font-family: Osward;
     display: flex;
     gap:20px;
-    font-size:40px;
+    font-size:35px;
     background-color: #D22B2B;
     height: 100px;
     align-items: center;
@@ -1727,6 +1733,7 @@ svg{
 }
 .gallery-text-container p{
      margin:0px;
+       font-weight: 500;
 }
 .gallery-container{
     display: grid;
@@ -1934,7 +1941,7 @@ svg{
 }
 .prices-line-contaier{
     background-color:#D22B2B;
-    height: 120px;
+    height: 100px;
         display: flex;
     align-items: center;
     justify-content: center;
@@ -1973,7 +1980,7 @@ svg{
     font-family: Osward;
     display: flex;
     gap:20px;
-    font-size:40px;
+    font-size:35px;
     background-color: #D22B2B;
     height: 100px;
     align-items: center;
@@ -1985,6 +1992,7 @@ svg{
 }
 .gallery-text-container p{
      margin:0px;
+       font-weight: 500;
 }
 .gallery-container{
     display: grid;
@@ -2185,7 +2193,7 @@ svg{
 }
 .prices-line-contaier{
     background-color:#D22B2B;
-    height: 120px;
+   height: 100px;
         display: flex;
     align-items: center;
     justify-content: center;
@@ -2224,7 +2232,7 @@ svg{
     font-family: Osward;
     display: flex;
     gap:20px;
-    font-size:40px;
+    font-size:35px;
     background-color: #D22B2B;
     height: 100px;
     align-items: center;
@@ -2236,6 +2244,7 @@ svg{
 }
 .gallery-text-container p{
      margin:0px;
+       font-weight: 500;
 }
 .gallery-container{
     display: grid;
@@ -2368,6 +2377,10 @@ svg{
     font-size: 35px;
     color: #FAFAFA;
 }
+p{
+    margin: 0;
+    padding: 0;
+}
 
 .introduction-container{
     display: grid;
@@ -2426,7 +2439,7 @@ svg{
 }
 .prices-line-contaier{
     background-color:#D22B2B;
-    height: 120px;
+    height: 100px;
         display: flex;
     align-items: center;
     justify-content: center;
@@ -2465,7 +2478,7 @@ svg{
     font-family: Osward;
     display: flex;
     gap:20px;
-    font-size:40px;
+    font-size:35px;
     background-color: #D22B2B;
     height: 100px;
     align-items: center;
@@ -2476,6 +2489,7 @@ svg{
    
 }
 .gallery-text-container p{
+    font-weight: 500;
      margin:0px;
 }
 .gallery-container{
@@ -2483,6 +2497,7 @@ svg{
     grid-template-columns: 1fr 1fr 1fr;
     font-family: Osward;
     gap:50px;
+    font-weight: 500;
     font-size: 24px;
     padding-top: 50px;
     background-color: #FAFAFA;
@@ -2503,7 +2518,7 @@ svg{
 }
 
 /* 10) UHD PCs (4K) */
-@media (min-width:2560px) and (max-width: 3840px) {
+@media (min-width:2561px) and (max-width: 9999px) {
   .main{
     margin-top: 100px;
 
@@ -2610,6 +2625,7 @@ svg{
     color: #FAFAFA;
 }
 
+
 .introduction-container{
     display: grid;
       grid-template-columns:1fr 1fr;
@@ -2667,7 +2683,7 @@ svg{
 }
 .prices-line-contaier{
     background-color:#D22B2B;
-    height: 120px;
+     height: 100px;
         display: flex;
     align-items: center;
     justify-content: center;
@@ -2706,7 +2722,9 @@ svg{
     font-family: Osward;
     display: flex;
     gap:20px;
-    font-size:40px;
+    
+    font-size:35px;
+    font-weight: 500;
     background-color: #D22B2B;
     height: 100px;
     align-items: center;
