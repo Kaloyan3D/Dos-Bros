@@ -2377,10 +2377,6 @@ svg{
     font-size: 35px;
     color: #FAFAFA;
 }
-p{
-    margin: 0;
-    padding: 0;
-}
 
 .introduction-container{
     display: grid;
