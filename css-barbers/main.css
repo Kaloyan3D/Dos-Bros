@@ -512,14 +512,18 @@ svg{
 .barber-column p {
     font-size: 24px;
     font-weight: 700;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
 .ahmed-certificates img,
 .iliaz-certificates img {
-    height: 300px;
+    height: 250px;
+    width: 350px;
     margin-bottom: 10px;
           object-fit:contain;
 }
+
   .review-container {
     width: calc(100% - 20px); /* 1 review per row with margins */
     font-size: 15px;
@@ -619,11 +623,13 @@ svg{
 .barber-column p {
     font-size: 24px;
     font-weight: 700;
+    margin: 0;
+    margin-bottom: 40px;
 }
 
 .ahmed-certificates img,
 .iliaz-certificates img {
-    height: 300px;
+    height: 250px;
     margin-bottom: 10px;
           object-fit:contain;
 }
@@ -726,11 +732,15 @@ svg{
 .barber-column p {
     font-size: 24px;
     font-weight: 700;
+    margin: 0;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .ahmed-certificates img,
 .iliaz-certificates img {
-    height: 300px;
+    height: 250px;
     margin-bottom: 10px;
           object-fit:contain;
 }
@@ -833,6 +843,8 @@ svg{
 .barber-column p {
     font-size: 24px;
     font-weight: 700;
+    margin: 0;
+    margin-bottom: 40px;
 }
 
 .ahmed-certificates img,
@@ -946,6 +958,8 @@ svg{
 .barber-column p {
     font-size: 24px;
     font-weight: 700;
+    margin: 0;
+    margin-bottom: 40px;
 }
 
 .ahmed-certificates img,
@@ -1059,11 +1073,13 @@ svg{
 .barber-column p {
     font-size: 24px;
     font-weight: 700;
+    margin: 0;
+    margin-bottom: 60px;
 }
 
 .ahmed-certificates img,
 .iliaz-certificates img {
-    height: 400px;
+    height: 380px;
     margin-bottom: 10px;
           object-fit:contain;
 }
@@ -1172,6 +1188,8 @@ svg{
 .barber-column p {
     font-size: 24px;
     font-weight: 700;
+    margin: 0;
+    margin-bottom: 50px;
 }
 
 .ahmed-certificates img,
@@ -1287,6 +1305,8 @@ svg{
 .barber-column p {
     font-size: 24px;
     font-weight: 700;
+    margin: 0;
+    margin-bottom: 100px;
 }
 
 .ahmed-certificates img,
@@ -1337,6 +1357,8 @@ svg{
 .ahmed-certificates p, .iliaz-certificates p{
     font-size: 24px;
     font-weight: 700;
+    margin: 0;
+    margin-bottom: 100px;
 }
 
 .carousel-wrapper {
@@ -1498,6 +1520,8 @@ svg{
 .barber-column p {
     font-size: 24px;
     font-weight: 700;
+       margin: 0;
+    margin-bottom: 100px;
 }
 
 .ahmed-certificates img,
@@ -1713,6 +1737,8 @@ svg{
 .barber-column p {
     font-size: 24px;
     font-weight: 700;
+       margin: 0;
+    margin-bottom: 200px;
 }
 
 .ahmed-certificates img,
