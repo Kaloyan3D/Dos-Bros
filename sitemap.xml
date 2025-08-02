@@ -45,7 +45,7 @@
 
   <!-- Barbers Page -->
   <url>
-    <loc>https://dosbros.net/barbers.html</loc>
+    <loc>https://dosbros.net/barbers</loc>
     <lastmod>2025-07-29T10:24:41+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
@@ -63,7 +63,7 @@
 
   <!-- Contacts Page -->
   <url>
-    <loc>https://dosbros.net/contacts.html</loc>
+    <loc>https://dosbros.net/contacts</loc>
     <lastmod>2025-07-29T10:24:41+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
