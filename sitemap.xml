@@ -8,16 +8,16 @@
   <!-- Homepage -->
   <url>
     <loc>https://dosbros.net/</loc>
-    <lastmod>2025-07-29T10:24:41+00:00</lastmod>
+    <lastmod>2025-08-02T10:24:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
     <image:image>
-      <image:loc>https://dosbros.net/Home Page Images/home-page2.webp</image:loc>
+      <image:loc>https://dosbros.net/Home-Page-Images/home-page2.webp</image:loc>
       <image:caption>Фризьорски салон Dos Bros във Велико Търново - интериор</image:caption>
       <image:title>Dos Bros Barbershop Interior</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://dosbros.net/Home Page Images/home-page_vignette.webp</image:loc>
+      <image:loc>https://dosbros.net/Home-Page-Images/home-page_vignette.webp</image:loc>
       <image:caption>Илиаз и Ахмед - братята от Dos Bros</image:caption>
       <image:title>Dos Bros Barbers</image:title>
     </image:image>
@@ -46,7 +46,7 @@
   <!-- Barbers Page -->
   <url>
     <loc>https://dosbros.net/barbers</loc>
-    <lastmod>2025-07-29T10:24:41+00:00</lastmod>
+    <lastmod>2025-08-02T10:24:41+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -59,14 +59,44 @@
       <image:caption>Илиаз - фризьор в Dos Bros</image:caption>
       <image:title>Iliaz Barber</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://dosbros.net/Certificates/ahmed-certificate1.webp</image:loc>
+      <image:caption>Сертификат за Fade подстрижка - Ахмед</image:caption>
+      <image:title>Ahmed Fade Certificate</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbros.net/Certificates/ahmed-certificate2.webp</image:loc>
+      <image:caption>Сертификат за комбинирани техники на подстригване - Ахмед</image:caption>
+      <image:title>Ahmed Combined Techniques Certificate</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbros.net/Certificates/iliaz-certificate1.webp</image:loc>
+      <image:caption>Сертификат за Fade подстрижка - Илиаз</image:caption>
+      <image:title>Iliaz Fade Certificate</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbros.net/Certificates/iliaz-certificate2.webp</image:loc>
+      <image:caption>Сертификат за форма на средна дължина - Илиаз</image:caption>
+      <image:title>Iliaz Medium Length Certificate</image:title>
+    </image:image>
   </url>
 
   <!-- Contacts Page -->
   <url>
     <loc>https://dosbros.net/contacts</loc>
-    <lastmod>2025-07-29T10:24:41+00:00</lastmod>
+    <lastmod>2025-08-02T10:24:41+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://dosbros.net/Barbers/Ahmed.webp</image:loc>
+      <image:caption>Ахмед Хаджиерол - контакти</image:caption>
+      <image:title>Ahmed Contact Info</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbros.net/Barbers/Iliaz.webp</image:loc>
+      <image:caption>Илиаз Ахмедов - контакти</image:caption>
+      <image:title>Iliaz Contact Info</image:title>
+    </image:image>
   </url>
 
 </urlset>
